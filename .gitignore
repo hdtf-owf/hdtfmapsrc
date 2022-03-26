@@ -2,5 +2,6 @@
 *.ini
 *.prt
 *.log
+*.vmx
 maps_source/\!clear_compiled_data.bat
 maps_source/\!move_to_content_builder.bat
