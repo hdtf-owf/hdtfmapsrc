@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6412"
-	"mapversion" "296"
+	"editorbuild" "8157"
+	"mapversion" "300"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "296"
+	"mapversion" "300"
 	"classname" "worldspawn"
 	"armsskin" "1"
 	"comment" "Decompiled by BSPSource v1.3.24 from a3c6p3"
@@ -26194,7 +26194,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-576 -10304 -1662.01]"
+				"startposition" "[-576 -10304 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -26830,7 +26830,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-576 -8704 -1662.01]"
+				"startposition" "[-576 -8704 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -27307,7 +27307,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[1024 -7104 -1662.01]"
+				"startposition" "[1024 -7104 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -27625,7 +27625,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[2624 -7104 -1662.01]"
+				"startposition" "[2624 -7104 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -29374,7 +29374,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[5184 -7104 -1662.01]"
+				"startposition" "[5184 -7104 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -30010,7 +30010,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[6784 -7104 -1662.01]"
+				"startposition" "[6784 -7104 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -30646,7 +30646,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[8384 -8704 -1662.01]"
+				"startposition" "[8384 -8704 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -32077,7 +32077,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[4224 -7104 -1662.01]"
+				"startposition" "[4224 -7104 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -33667,7 +33667,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[8384 -7104 -1662.01]"
+				"startposition" "[8384 -7104 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -33826,7 +33826,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[9984 -7104 -1662.01]"
+				"startposition" "[9984 -7104 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -33985,7 +33985,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[8384 -7104 -1662.01]"
+				"startposition" "[8384 -7104 -1662]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -133834,7 +133834,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -135649,7 +135649,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -142394,7 +142394,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -150793,7 +150793,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -150976,7 +150976,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -173916,7 +173916,7 @@ entity
 {
 	"id" "631529"
 	"classname" "env_cubemap"
-	"sides" ""
+	"sides" "1009 1037 946 981 911 894 869 904 8 50 2009 57 71 17036"
 	"origin" "1992 960 -2760"
 	editor
 	{
@@ -174483,7 +174483,7 @@ entity
 {
 	"id" "632347"
 	"classname" "env_cubemap"
-	"sides" ""
+	"sides" "181"
 	"origin" "832 -979 -2805"
 	editor
 	{
@@ -174511,7 +174511,7 @@ entity
 {
 	"id" "632499"
 	"classname" "env_cubemap"
-	"sides" ""
+	"sides" "499 125 82 208 289 283 297 1269 107 104 74 174"
 	"origin" "1208 -642 -2709"
 	editor
 	{
@@ -174567,7 +174567,7 @@ entity
 {
 	"id" "632581"
 	"classname" "env_cubemap"
-	"sides" ""
+	"sides" "16790 16861 16872 16742 16814"
 	"origin" "1747 1973 -2760"
 	editor
 	{
@@ -174595,7 +174595,7 @@ entity
 {
 	"id" "632589"
 	"classname" "env_cubemap"
-	"sides" ""
+	"sides" "16432 16454 18003 16448 17939 17963 16443 17951 18007 17995 17938 17947 18019 16518 16495 16492 16506 16524 16533 16529 16468 16461 16474 16481 16486 16400 16389 16418 16423 16427 16386 16412 16362 16380 16375 16368 16355 16254 16267 16274 16324 16328 16319 16246 16242 16237 16192 16185 16172 16231 16313 16290 16281 16208 16199 16205 16219 16263 16287 16301 16181"
 	"origin" "1107 1973 -2760"
 	editor
 	{
@@ -174717,7 +174717,7 @@ hidden
 				editor
 				{
 					"color" "0 180 0"
-					"visgroupshown" "0"
+					"visgroupshown" "1"
 					"visgroupautoshown" "1"
 				}
 			}
@@ -174758,8 +174758,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1210.59 -12642.6 -3115.67]"
-		"look" "[1399.29 -12462.9 -3060.29]"
+		"position" "[941.088 -1002.31 -2705.52]"
+		"look" "[732.37 -1006.69 -2871]"
 	}
 }
 cordon
