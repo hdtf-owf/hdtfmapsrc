@@ -68,6 +68,7 @@ ECHO %TIME% house started.
 start /wait !domap a3c8p2_house
 start /wait !domap a3c8p2_outpost
 start /wait !domap credits
+start /wait !domap dev_ending
 REM house
 ECHO %TIME% compile completed.
 ECHO Compile Completed.
