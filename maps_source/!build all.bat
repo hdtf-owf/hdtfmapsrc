@@ -173,6 +173,7 @@ ECHO %TIME% ACT 3 Finished.
 ECHO.
 START /wait !domap dev_killhouse
 START /wait !domap dev_shooting_range
+START /wait !domap dev_ending
 ECHO.
 ECHO.
 ECHO %TIME% Done.
