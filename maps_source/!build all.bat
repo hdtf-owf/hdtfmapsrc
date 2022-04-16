@@ -171,9 +171,13 @@ START /wait !domap credits
 ECHO.
 ECHO %TIME% ACT 3 Finished.
 ECHO.
+START /wait !domap dev_coop_blackmesaeast
+START /wait !domap dev_cubemaps
 START /wait !domap dev_killhouse
 START /wait !domap dev_shooting_range
 START /wait !domap dev_ending
+START /wait !domap dev_WATERTEST
+START /wait !domap hdtf_orphanage
 ECHO.
 ECHO.
 ECHO %TIME% Done.
