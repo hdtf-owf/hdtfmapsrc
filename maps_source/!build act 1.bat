@@ -56,6 +56,9 @@ start /wait !domap.bat a1c4p4_factory
 ECHO %TIME% outlands cont. started.
 start /wait !domap_fast_vvis.bat a1c4p5_outlands_2
 
+ECHO %TIME% pier_m3sa started.
+start /wait !domap.bat a1c5p1_pier_m3sa
+
 ECHO %TIME% pier 1 started.
 start /wait !domap_minimal_vrad.bat a1c5p1_pier_1
 
