@@ -66,7 +66,7 @@ start /wait !domap a3c8p1_forest
 REM forest
 ECHO %TIME% house started.
 start /wait !domap a3c8p2_house
-start /wait !domap a3c8p2_outpost
+start /wait !domap_minimal_vrad a3c8p2_outpost
 start /wait !domap credits
 start /wait !domap dev_ending
 REM house
