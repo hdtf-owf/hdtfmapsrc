@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "130"
+	"mapversion" "131"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -84,7 +84,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "130"
+	"mapversion" "131"
 	"classname" "worldspawn"
 	"armsskin" "1"
 	"comment" "Decompiled by BSPSource v1.3.24 from a3c2p4"
@@ -40234,7 +40234,7 @@ entity
 {
 	"id" "63401"
 	"classname" "player_speedmod"
-	"spawnflags" "495"
+	"spawnflags" "1007"
 	"targetname" "spedy"
 	"origin" "-2975.17 755.936 -206"
 	editor
@@ -133187,8 +133187,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-188.646 350.177 -177.526]"
-		"look" "[-283.287 570.985 -292.627]"
+		"position" "[-156.936 212.526 -152.256]"
+		"look" "[-306.654 -2.89572 -198.513]"
 	}
 }
 cordons

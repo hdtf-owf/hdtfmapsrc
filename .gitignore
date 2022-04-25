@@ -7,4 +7,5 @@ maps_source/\!clear_compiled_data.bat
 maps_source/\!move_to_content_builder.bat
 *.bsp
 maps_source/\!build.bat
+maps_source/a3c8p2_house.lin
 *.mdmp
