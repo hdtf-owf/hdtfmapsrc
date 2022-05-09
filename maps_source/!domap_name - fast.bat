@@ -110,7 +110,7 @@ ECHO.
 ECHO.
 ECHO.
 title %MAPNAME% - VRAD
-"%GAME_DIR%\bin\vrad.exe" -fast -threads 5 -both -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
+"%GAME_DIR%\bin\vrad.exe" -fast -threads 5 -both -final %MAPNAME%.bsp
 color 02
 ECHO.
 ECHO.
