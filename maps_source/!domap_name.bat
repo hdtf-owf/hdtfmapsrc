@@ -117,5 +117,6 @@ del /f *.prt
 del /f *.vmx
 del /f *.ini
 XCOPY /E /I /Y /J "%MAPNAME%.bsp"		"H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\HDtF\maps"
+pause
 GOTO START
 exit
