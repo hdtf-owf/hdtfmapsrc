@@ -3,10 +3,9 @@
 ///ACT1///
 //////////
 
-bootcamp_m3sa			2 minutes
-bootcamp			15 minutes
-blackmesa			27 minutes
-hospital 1			11 minutes
+bootcamp			2 minutes
+blackmesa			13m44s
+hospital 1			5m55s
 hospital 2			13 minutes
 downtown 1			36 minutes
 downtown 2			16 minutes

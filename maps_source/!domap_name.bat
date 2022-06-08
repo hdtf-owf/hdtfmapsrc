@@ -3,7 +3,7 @@ color 0a
 title %1
 
 REM Count how many cores computer has, then subtract one so it doesn't lock the system up
-SET /a CORE=%NUMBER_OF_PROCESSORS%-2
+SET /a CORE=%NUMBER_OF_PROCESSORS%-1
 
 REM Finding where the build programs are.
 REM SET CurrentDirectory=%~dp0
