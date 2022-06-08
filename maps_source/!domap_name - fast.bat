@@ -110,7 +110,8 @@ ECHO.
 ECHO.
 ECHO.
 title %MAPNAME% - VRAD
-"%GAME_DIR%\bin\vrad.exe" -fast -threads 5 -both -final %MAPNAME%.bsp
+"%GAME_DIR%\bin\vrad.exe" -fast -ldr -threads %CORE% -final %MAPNAME%.bsp
+"%GAME_DIR%\bin\vrad.exe" -fast -hdr -threads %CORE% -final %MAPNAME%.bsp
 color 02
 ECHO.
 ECHO.
