@@ -105,7 +105,8 @@ ECHO.
 ECHO.
 ECHO.
 title %1 - VRAD
-"%GAME_DIR%\bin\vrad.exe" -both -threads %CORE% %1
+"%GAME_DIR%\bin\vrad.exe" -ldr -threads %CORE% %1
+"%GAME_DIR%\bin\vrad.exe" -hdr -threads %CORE% %1
 
 color 02
 del /f *.prt

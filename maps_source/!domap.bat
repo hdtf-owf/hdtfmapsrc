@@ -104,7 +104,8 @@ ECHO.
 ECHO.
 ECHO.
 title %1 - VRAD
-"%GAME_DIR%\bin\vrad.exe" -both -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% %1
+"%GAME_DIR%\bin\vrad.exe" -ldr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% %1
+"%GAME_DIR%\bin\vrad.exe" -hdr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% %1
 
 color 02
 del /f *.prt

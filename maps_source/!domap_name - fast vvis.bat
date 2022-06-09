@@ -85,7 +85,7 @@ ECHO.
 ECHO.
 ECHO.
 title %MAPNAME% - VVIS
-"%GAME_DIR%\bin\vvis.exe" -threads 5 -fast %2 %MAPNAME%.bsp
+"%GAME_DIR%\bin\vvis.exe" -threads %CORE% -fast %2 %MAPNAME%.bsp
 color 04
 ECHO.
 ECHO.
@@ -110,7 +110,8 @@ ECHO.
 ECHO.
 ECHO.
 title %MAPNAME% - VRAD
-"%GAME_DIR%\bin\vrad.exe" -threads 5 -both -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
+"%GAME_DIR%\bin\vrad.exe" -threads %CORE% -ldr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
+"%GAME_DIR%\bin\vrad.exe" -threads %CORE% -hdr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
 color 02
 ECHO.
 ECHO.
