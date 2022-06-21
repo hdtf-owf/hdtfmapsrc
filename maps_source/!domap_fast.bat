@@ -104,8 +104,9 @@ ECHO             VVV            RRRRRRRR     RRRRRRRAAAAAAA                   AA
 ECHO.
 ECHO.
 ECHO.
-title %1 - VRAD
+title %MAPNAME% - VRAD - PASS 1
 "%GAME_DIR%\bin\vrad.exe" -fast -ldr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% %1
+title %MAPNAME% - VRAD - PASS 2
 "%GAME_DIR%\bin\vrad.exe" -fast -hdr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% %1
 
 color 02

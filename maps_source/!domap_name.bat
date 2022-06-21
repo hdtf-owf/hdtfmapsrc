@@ -61,7 +61,8 @@ ECHO.
 ECHO.
 ECHO.
 title %MAPNAME% - VBSP
-"%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap %MAPNAME%.vmf
+REM "%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap %MAPNAME%.vmf
+"%GAME_DIR%\bin\vbsp.exe" %MAPNAME%.vmf
 color 05
 ECHO.
 ECHO.
@@ -110,8 +111,9 @@ ECHO             VVV            RRRRRRRR     RRRRRRRAAAAAAA                   AA
 ECHO.
 ECHO.
 ECHO.
-title %MAPNAME% - VRAD
+title %MAPNAME% - VRAD - PASS 1
 "%GAME_DIR%\bin\vrad.exe" -threads %CORE% -ldr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
+title %MAPNAME% - VRAD - PASS 2
 "%GAME_DIR%\bin\vrad.exe" -threads %CORE% -hdr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
 color 02
 del /f *.prt
