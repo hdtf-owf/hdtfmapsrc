@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8157"
-	"mapversion" "223"
+	"mapversion" "224"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "223"
+	"mapversion" "224"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -9718,7 +9718,7 @@ entity
 		side
 		{
 			"id" "4649"
-			"plane" "(2696 384 -8) (2696 -384 -8) (3448 -384 -8)"
+			"plane" "(2696 384 -7.62939e-006) (2696 -384 -7.62939e-006) (3448 -384 -7.62939e-006)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -9729,7 +9729,7 @@ entity
 		side
 		{
 			"id" "4648"
-			"plane" "(2696 -384 -8) (2696 384 -8) (2696 384 256)"
+			"plane" "(2696 -384 -7.62939e-006) (2696 384 -7.62939e-006) (2696 384 256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -9740,7 +9740,7 @@ entity
 		side
 		{
 			"id" "4647"
-			"plane" "(3448 384 -8) (3448 -384 -8) (3448 -384 256)"
+			"plane" "(3448 384 -7.62939e-006) (3448 -384 -7.62939e-006) (3448 -384 256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -9751,7 +9751,7 @@ entity
 		side
 		{
 			"id" "4646"
-			"plane" "(2696 384 -8) (3448 384 -8) (3448 384 256)"
+			"plane" "(2696 384 -7.62939e-006) (3448 384 -7.62939e-006) (3448 384 256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -9762,7 +9762,7 @@ entity
 		side
 		{
 			"id" "4645"
-			"plane" "(3448 -384 -8) (2696 -384 -8) (2696 -384 256)"
+			"plane" "(3448 -384 -7.62939e-006) (2696 -384 -7.62939e-006) (2696 -384 256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
