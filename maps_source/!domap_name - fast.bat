@@ -109,9 +109,6 @@ ECHO             VVV            RRRRRRRR     RRRRRRRAAAAAAA                   AA
 ECHO.
 ECHO.
 ECHO.
-title %MAPNAME% - VRAD - PASS 1
-"%GAME_DIR%\bin\vrad.exe" -fast -ldr -threads %CORE% -final %MAPNAME%.bsp
-title %MAPNAME% - VRAD - PASS 2
 "%GAME_DIR%\bin\vrad.exe" -fast -hdr -threads %CORE% -final %MAPNAME%.bsp
 color 02
 ECHO.

@@ -110,9 +110,6 @@ ECHO             VVV            RRRRRRRR     RRRRRRRAAAAAAA                   AA
 ECHO.
 ECHO.
 ECHO.
-title %MAPNAME% - VRAD - PASS 1
-"%GAME_DIR%\bin\vrad.exe" -threads %CORE% -ldr %MAPNAME%.bsp
-title %MAPNAME% - VRAD - PASS 2
 "%GAME_DIR%\bin\vrad.exe" -threads %CORE% -hdr %MAPNAME%.bsp
 color 02
 del /f *.prt
