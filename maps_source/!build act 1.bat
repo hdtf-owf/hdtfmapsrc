@@ -2,8 +2,8 @@
 color 0a
 title Build Act 1
 
-ECHO %TIME% Bootcamp started.
-start /wait !domap.bat a0c0p0_bootcamp_m3sa
+REM ECHO %TIME% Bootcamp started.
+REM start /wait !domap.bat a0c0p0_bootcamp_m3sa
 
 ECHO %TIME% Bootcamp started.
 start /wait !domap.bat a0c0p0_bootcamp
@@ -53,8 +53,8 @@ start /wait !domap.bat a1c4p3_outlands_1
 ECHO %TIME% factory/plant started.
 start /wait !domap.bat a1c4p4_factory
 `
-ECHO %TIME% outlands cont. started.
-start /wait !domap_fast_vvis.bat a1c4p5_outlands_2
+REM ECHO %TIME% outlands cont. started.
+REM start /wait !domap_fast_vvis.bat a1c4p5_outlands_2
 
 ECHO %TIME% pier_m3sa started.
 start /wait !domap.bat a1c5p1_pier_m3sa
