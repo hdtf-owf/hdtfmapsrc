@@ -111,6 +111,7 @@ ECHO             VVV            RRRRRRRR     RRRRRRRAAAAAAA                   AA
 ECHO.
 ECHO.
 ECHO.
+"%GAME_DIR%\bin\vrad.exe" -threads %CORE% -ldr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
 "%GAME_DIR%\bin\vrad.exe" -threads %CORE% -hdr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
 color 02
 del /f *.prt

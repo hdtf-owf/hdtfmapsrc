@@ -103,6 +103,7 @@ ECHO             VVV            RRRRRRRR     RRRRRRRAAAAAAA                   AA
 ECHO.
 ECHO.
 ECHO.
+"%GAME_DIR%\bin\vrad.exe" -ldr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% %1
 "%GAME_DIR%\bin\vrad.exe" -hdr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% %1
 
 color 02
