@@ -110,6 +110,7 @@ ECHO             VVV            RRRRRRRR     RRRRRRRAAAAAAA                   AA
 ECHO.
 ECHO.
 ECHO.
+"%GAME_DIR%\bin\vrad.exe" -threads %CORE% -ldr %MAPNAME%.bsp
 "%GAME_DIR%\bin\vrad.exe" -threads %CORE% -hdr %MAPNAME%.bsp
 color 02
 del /f *.prt
