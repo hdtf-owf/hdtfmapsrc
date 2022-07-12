@@ -49,8 +49,8 @@ REM highway
 ECHO %TIME% nova pro started.
 start /wait !domap a3c6p1_novapro
 REM nova pro
-ECHO %TIME% nova pro started.
-start /wait !domap a3c6p2_novapro
+REM ECHO %TIME% nova pro started.
+REM start /wait !domap a3c6p2_novapro
 REM nova pro
 ECHO %TIME% nova pro started.
 start /wait !domap a3c6p3_novapro
