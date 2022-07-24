@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8157"
-	"mapversion" "150"
+	"editorbuild" "8163"
+	"mapversion" "170"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "150"
+	"mapversion" "170"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7362,28 +7362,19 @@ entity
 	{
 		"OnTrigger" "intro_view_controller,Enable,,0,-1"
 		"" "phys_explosion,Explode,,12,-1"
-		"OnTrigger" "sound_break2,PlaySound,,10,-1"
-		"OnTrigger" "hinge_Entertainment_t,Break,,10,-1"
-		"OnTrigger" "phys_box_4_Entertainment_13,Wake,,9,-1"
-		"OnTrigger" "sound_break,PlaySound,,9,-1"
-		"OnTrigger" "sound_creak,Volume,0,8,-1"
-		"OnTrigger" "sound_creak,PlaySound,,7,-1"
+		"OnTrigger" "sound_break2,PlaySound,,7,-1"
+		"OnTrigger" "hinge_Entertainment_t,Break,,7,-1"
+		"OnTrigger" "phys_box_4_Entertainment_13,Wake,,6,-1"
+		"OnTrigger" "sound_break,PlaySound,,6,-1"
+		"OnTrigger" "sound_creak,Volume,0,5,-1"
+		"OnTrigger" "sound_creak,PlaySound,,4,-1"
 		"OnTrigger" "mapstart_fadein,Fade,,0,-1"
-		"OnTrigger" "sound_break3,PlaySound,,12,-1"
-		"OnTrigger" "mapstart_fadeout,Fade,,14,-1"
-		"OnTrigger" "client_command,Command,disconnect,16,-1"
-		"OnTrigger" "brush_black_hiders_1,Disable,,3.5,-1"
-		"OnTrigger" "phys_box_2*,Alpha,0,3.5,-1"
-		"OnTrigger" "phys_box_3*,Alpha,0,3.5,-1"
-		"OnTrigger" "phys_box_4*,Alpha,0,3.5,-1"
-		"OnTrigger" "brush_black_hiders_2,Disable,,5,-1"
-		"OnTrigger" "brush_black_hiders_3,Disable,,5.5,-1"
-		"OnTrigger" "phys_box_5*,Alpha,0,5,-1"
-		"OnTrigger" "phys_box_6*,Alpha,0,5,-1"
-		"OnTrigger" "phys_box_10*,Alpha,0,5,-1"
-		"OnTrigger" "phys_box_7*,Alpha,0,5,-1"
-		"OnTrigger" "phys_box_8*,Alpha,0,5,-1"
-		"OnTrigger" "phys_box_9*,Alpha,0,5.5,-1"
+		"OnTrigger" "sound_break3,PlaySound,,9,-1"
+		"OnTrigger" "mapstart_fadeout,Fade,,10.5,-1"
+		"OnTrigger" "client_command,Command,disconnect,12.5,-1"
+		"OnTrigger" "relay_1_studioname_appear,Trigger,,2,-1"
+		"OnTrigger" "relay_2_toolsappear,Trigger,,3,-1"
+		"OnTrigger" "relay_3_legalshit,Trigger,,4,-1"
 	}
 	"origin" "-56 -632 -368"
 	editor
@@ -7453,7 +7444,13 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"" "relay_mapstart,Trigger,,0,-1"
+		"" "tonemap,SetAutoExposureMax,6.0,0,-1"
+		"" "tonemap,SetAutoExposureMin,2.0,0,-1"
+		"OnMapSpawn" "tonemap,SetBloomScale,0.0,0,-1"
+		"OnMapSpawn" "client_command,Command,developer 0,0,-1"
+		"OnMapSpawn" "client_command,Command,hdtf_version_overlay 0,0,-1"
+		"OnMapSpawn" "relay_mapstart,Trigger,,5,-1"
+		"OnMapSpawn" "player_speedmod,ModifySpeed,0,0,-1"
 	}
 	"origin" "-72 -632 -368"
 	editor
@@ -8190,6 +8187,104 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "5718"
+	"classname" "env_tonemap_controller"
+	"targetname" "tonemap"
+	"origin" "-40 -648 -368"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "5766"
+	"classname" "player_speedmod"
+	"spawnflags" "255"
+	"targetname" "player_speedmod"
+	"origin" "-40 -584 -360"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "5786"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "relay_1_studioname_appear"
+	connections
+	{
+		"OnTrigger" "brush_black_hiders_1,Disable,,0,-1"
+		"OnTrigger" "phys_box_2*,Alpha,0,0,-1"
+		"OnTrigger" "phys_box_3*,Alpha,0,0,-1"
+		"OnTrigger" "phys_box_4*,Alpha,0,0,-1"
+	}
+	"origin" "-56 -632 -352"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "5800"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "relay_2_toolsappear"
+	connections
+	{
+		"OnTrigger" "brush_black_hiders_2,Disable,,0,-1"
+		"OnTrigger" "phys_box_5*,Alpha,0,0,-1"
+		"OnTrigger" "phys_box_6*,Alpha,0,0,-1"
+		"OnTrigger" "phys_box_10*,Alpha,0,0,-1"
+		"OnTrigger" "phys_box_7*,Alpha,0,0,-1"
+		"OnTrigger" "phys_box_8*,Alpha,0,0,-1"
+	}
+	"origin" "-40 -632 -352"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
+	}
+}
+entity
+{
+	"id" "5851"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "relay_3_legalshit"
+	connections
+	{
+		"OnTrigger" "brush_black_hiders_3,Disable,,0,-1"
+		"OnTrigger" "phys_box_9*,Alpha,0,0,-1"
+	}
+	"origin" "-24 -632 -352"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 13500]"
 	}
 }
 cameras
