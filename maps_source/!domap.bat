@@ -29,6 +29,7 @@ REM PING localhost>nul
 REM CLS
 
 color 01
+title %1 - VBSP
 ECHO.
 ECHO.
 ECHO.
@@ -51,10 +52,10 @@ ECHO             VVV            BBBBBBBBBBBBBBBBB    SSSSSSSSSSSSSSS   PPPPPPPPP
 ECHO.
 ECHO.
 ECHO.
-title %1 - VBSP
 "%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap %1
 
 color 05
+title %1 - VVIS
 ECHO.
 ECHO.
 ECHO.
@@ -77,10 +78,10 @@ ECHO             VVV                        VVV            IIIIIIIIII SSSSSSSSSS
 ECHO.
 ECHO.
 ECHO.
-title %1 - VVIS
 "%GAME_DIR%\bin\vvis.exe" -threads %CORE% %2 %1
 
 color 04
+title %1 - VRAD
 ECHO.
 ECHO.
 ECHO.
