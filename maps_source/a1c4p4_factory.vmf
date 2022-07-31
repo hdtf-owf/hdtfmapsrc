@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "449"
+	"mapversion" "453"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "449"
+	"mapversion" "453"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -60214,7 +60214,6 @@ entity
 		"OnStartTouch" "point_servercommand,Command,give weapon_wrench,0,-1"
 		"OnStartTouch" "logic_autosave,Save,,1,1"
 		"OnStartTouch" "point_servercommand,Command,inventory_select weapon_wrench,0.01,-1"
-		"" "relay_meet_joe,Trigger,,0,1"
 	}
 	solid
 	{
@@ -128391,13 +128390,108 @@ entity
 		"logicalpos" "[0 3500]"
 	}
 }
+entity
+{
+	"id" "1118472"
+	"classname" "trigger_once"
+	"origin" "2104 -312 -153"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	connections
+	{
+		"OnTrigger" "relay_meet_joe,Trigger,,0,1"
+	}
+	solid
+	{
+		"id" "1118470"
+		side
+		{
+			"id" "14608"
+			"plane" "(1936 -304 -74) (2272 -304 -74) (2272 -320 -74)"
+			"material" "M3SA/NOTSTOLENFROMCOMMUNITYDISCORD/NECOMITCH"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14607"
+			"plane" "(1936 -320 -232) (2272 -320 -232) (2272 -304 -232)"
+			"material" "M3SA/NOTSTOLENFROMCOMMUNITYDISCORD/NECOMITCH"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14606"
+			"plane" "(1936 -304 -74) (1936 -320 -74) (1936 -320 -232)"
+			"material" "M3SA/NOTSTOLENFROMCOMMUNITYDISCORD/NECOMITCH"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14605"
+			"plane" "(2272 -304 -232) (2272 -320 -232) (2272 -320 -74)"
+			"material" "M3SA/NOTSTOLENFROMCOMMUNITYDISCORD/NECOMITCH"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14604"
+			"plane" "(2272 -304 -74) (1936 -304 -74) (1936 -304 -232)"
+			"material" "M3SA/NOTSTOLENFROMCOMMUNITYDISCORD/NECOMITCH"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14603"
+			"plane" "(2272 -320 -232) (1936 -320 -232) (1936 -320 -74)"
+			"material" "M3SA/NOTSTOLENFROMCOMMUNITYDISCORD/NECOMITCH"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2078.67 -118.232 -109.05]"
-		"look" "[2113.39 -139.586 -372.313]"
+		"position" "[2182.83 -245.748 -161.756]"
+		"look" "[1943.17 -158.558 -238.747]"
 	}
 }
 cordon
