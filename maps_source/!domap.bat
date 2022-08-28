@@ -10,6 +10,8 @@ REM PUSHD %CD%
 REM CD..
 REM CD..
 SET GAME_DIR=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman
+SET MAP_DIR	=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\HDtF\maps
+SET BIN_DIR	=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
 REM SET GAME_DIR=%CD%
 REM POPD
 
