@@ -10,8 +10,11 @@ REM PUSHD %CD%
 REM CD..
 REM CD..
 SET GAME_DIR=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman
-SET MAP_DIR	=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\HDtF\maps
+ECHO %GAME_DIR%
+SET MAP_DIR	=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
+ECHO %MAP_DIR%
 SET BIN_DIR	=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
+ECHO %BIN_DIR%
 REM SET GAME_DIR=%CD%
 REM POPD
 
@@ -20,6 +23,7 @@ REM Drag and drop file
 
 REM Setting up the VProject
 set VPROJECT=%GAME_DIR%\hdtf
+ECHO %VPROJECT%
 
 REM CLS
 REM ECHO.
