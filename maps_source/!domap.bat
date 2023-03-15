@@ -1,120 +1,58 @@
 @echo off
 color 0a
 
-REM Count how many cores computer has, then subtract one so it doesn't lock the system up
 SET /a CORE=%NUMBER_OF_PROCESSORS%-1
 
-REM Finding where the build programs are.
-REM SET CurrentDirectory=%~dp0
-REM PUSHD %CD%
-REM CD..
-REM CD..
 SET GAME_DIR=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman
 ECHO %GAME_DIR%
 SET MAP_DIR	=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
 ECHO %MAP_DIR%
 SET BIN_DIR	=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
 ECHO %BIN_DIR%
-REM SET GAME_DIR=%CD%
-REM POPD
 
-REM Drag and drop file
 @attrib -r %1
 
-REM Setting up the VProject
 set VPROJECT=%GAME_DIR%\hdtf
 ECHO %VPROJECT%
 
-REM CLS
-REM ECHO.
-REM ECHO Verify these pathes are correct.
-REM echo VPROJECT:            %VPROJECT%
-REM echo Map SourcH:          %CD%
-REM echo Game Directory:      %GAME_DIR%
-REM PING localhost>nul
-REM CLS
+set LOG_FILE=%~n1_compile_time.txt
+
+echo Compile date is %date% > %LOG_FILE%
+echo Compile mode is FULL COMPILE >> %LOG_FILE%
+echo. >> %LOG_FILE%
 
 color 01
 title %1 - VBSP
-ECHO.
-ECHO.
-ECHO.
-ECHO VVVVVVVV           VVVVVVVVBBBBBBBBBBBBBBBBB      SSSSSSSSSSSSSSS PPPPPPPPPPPPPPPPP   
-ECHO V::::::V           V::::::VB::::::::::::::::B   SS:::::::::::::::SP::::::::::::::::P  
-ECHO V::::::V           V::::::VB::::::BBBBBB:::::B S:::::SSSSSS::::::SP::::::PPPPPP:::::P 
-ECHO V::::::V           V::::::VBB:::::B     B:::::BS:::::S     SSSSSSSPP:::::P     P:::::P
-ECHO  V:::::V           V:::::V   B::::B     B:::::BS:::::S              P::::P     P:::::P
-ECHO   V:::::V         V:::::V    B::::B     B:::::BS:::::S              P::::P     P:::::P
-ECHO    V:::::V       V:::::V     B::::BBBBBB:::::B  S::::SSSS           P::::PPPPPP:::::P 
-ECHO     V:::::V     V:::::V      B:::::::::::::BB    SS::::::SSSSS      P:::::::::::::PP  
-ECHO      V:::::V   V:::::V       B::::BBBBBB:::::B     SSS::::::::SS    P::::PPPPPPPPP    
-ECHO       V:::::V V:::::V        B::::B     B:::::B       SSSSSS::::S   P::::P            
-ECHO        V:::::V:::::V         B::::B     B:::::B            S:::::S  P::::P            
-ECHO         V:::::::::V          B::::B     B:::::B            S:::::S  P::::P            
-ECHO          V:::::::V         BB:::::BBBBBB::::::BSSSSSSS     S:::::SPP::::::PP          
-ECHO           V:::::V          B:::::::::::::::::B S::::::SSSSSS:::::SP::::::::P          
-ECHO            V:::V           B::::::::::::::::B  S:::::::::::::::SS P::::::::P          
-ECHO             VVV            BBBBBBBBBBBBBBBBB    SSSSSSSSSSSSSSS   PPPPPPPPPP          
-ECHO.
-ECHO.
-ECHO.
+echo VBSP		started		%time% >> %LOG_FILE%
 "%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap %1
+echo VBSP		finished	%time% >> %LOG_FILE%
+echo. >> %LOG_FILE%
 
 color 05
 title %1 - VVIS
-ECHO.
-ECHO.
-ECHO.
-ECHO VVVVVVVV           VVVVVVVVVVVVVVVV           VVVVVVVVIIIIIIIIII   SSSSSSSSSSSSSSS 
-ECHO V::::::V           V::::::VV::::::V           V::::::VI::::::::I SS:::::::::::::::S
-ECHO V::::::V           V::::::VV::::::V           V::::::VI::::::::IS:::::SSSSSS::::::S
-ECHO V::::::V           V::::::VV::::::V           V::::::VII::::::IIS:::::S     SSSSSSS
-ECHO  V:::::V           V:::::V  V:::::V           V:::::V   I::::I  S:::::S            
-ECHO   V:::::V         V:::::V    V:::::V         V:::::V    I::::I  S:::::S            
-ECHO    V:::::V       V:::::V      V:::::V       V:::::V     I::::I   S::::SSSS         
-ECHO     V:::::V     V:::::V        V:::::V     V:::::V      I::::I    SS::::::SSSSS    
-ECHO      V:::::V   V:::::V          V:::::V   V:::::V       I::::I      SSS::::::::SS  
-ECHO       V:::::V V:::::V            V:::::V V:::::V        I::::I         SSSSSS::::S 
-ECHO        V:::::V:::::V              V:::::V:::::V         I::::I              S:::::S
-ECHO         V:::::::::V                V:::::::::V          I::::I              S:::::S
-ECHO          V:::::::V                  V:::::::V         II::::::IISSSSSSS     S:::::S
-ECHO           V:::::V                    V:::::V          I::::::::IS::::::SSSSSS:::::S
-ECHO            V:::V                      V:::V           I::::::::IS:::::::::::::::SS 
-ECHO             VVV                        VVV            IIIIIIIIII SSSSSSSSSSSSSSS   
-ECHO.
-ECHO.
-ECHO.
+
+echo VVIS		started		%time% >> %LOG_FILE%
 "%GAME_DIR%\bin\vvis.exe" -threads %CORE% %2 %1
+echo VVIS		finished	%time% >> %LOG_FILE%
+echo. >> %LOG_FILE%
 
 color 04
 title %1 - VRAD
-ECHO.
-ECHO.
-ECHO.
-ECHO VVVVVVVV           VVVVVVVVRRRRRRRRRRRRRRRRR                  AAA               DDDDDDDDDDDDD        
-ECHO V::::::V           V::::::VR::::::::::::::::R                A:::A              D::::::::::::DDD     
-ECHO V::::::V           V::::::VR::::::RRRRRR:::::R              A:::::A             D:::::::::::::::DD   
-ECHO V::::::V           V::::::VRR:::::R     R:::::R            A:::::::A            DDD:::::DDDDD:::::D  
-ECHO  V:::::V           V:::::V   R::::R     R:::::R           A:::::::::A             D:::::D    D:::::D 
-ECHO   V:::::V         V:::::V    R::::R     R:::::R          A:::::A:::::A            D:::::D     D:::::D
-ECHO    V:::::V       V:::::V     R::::RRRRRR:::::R          A:::::A A:::::A           D:::::D     D:::::D
-ECHO     V:::::V     V:::::V      R:::::::::::::RR          A:::::A   A:::::A          D:::::D     D:::::D
-ECHO      V:::::V   V:::::V       R::::RRRRRR:::::R        A:::::A     A:::::A         D:::::D     D:::::D
-ECHO       V:::::V V:::::V        R::::R     R:::::R      A:::::AAAAAAAAA:::::A        D:::::D     D:::::D
-ECHO        V:::::V:::::V         R::::R     R:::::R     A:::::::::::::::::::::A       D:::::D     D:::::D
-ECHO         V:::::::::V          R::::R     R:::::R    A:::::AAAAAAAAAAAAA:::::A      D:::::D    D:::::D 
-ECHO          V:::::::V         RR:::::R     R:::::R   A:::::A             A:::::A   DDD:::::DDDDD:::::D  
-ECHO           V:::::V          R::::::R     R:::::R  A:::::A               A:::::A  D:::::::::::::::DD   
-ECHO            V:::V           R::::::R     R:::::R A:::::A                 A:::::A D::::::::::::DDD     
-ECHO             VVV            RRRRRRRR     RRRRRRRAAAAAAA                   AAAAAAADDDDDDDDDDDDD        
-ECHO.
-ECHO.
-ECHO.
-title %1 - VRAD
+echo VRAD-LDR	started		%time% >> %LOG_FILE%
 "%GAME_DIR%\bin\vrad.exe" -ldr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% %1
+echo VRAD-LDR	finished	%time% >> %LOG_FILE%
+echo. >> %LOG_FILE%
+
+echo VRAD-HDR	started		%time% >> %LOG_FILE%
 "%GAME_DIR%\bin\vrad.exe" -hdr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% %1
+echo VRAD-HDR	finished	%time% >> %LOG_FILE%
+echo. >> %LOG_FILE%
+
+echo. >> %LOG_FILE%
+echo Compile completed at %time% on %date% >> %LOG_FILE%
 
 color 02
+
 del /f *.prt
 del /f *.vmx
 del /f *.ini
