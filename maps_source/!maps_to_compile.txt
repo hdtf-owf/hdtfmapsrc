@@ -1,6 +1,6 @@
-a0c0p1_blackmesa
-a1c1p1_hospital_1
-a1c1p2_hospital_2
+a0c0p1_blackmesa full
+a1c1p1_hospital_1 minimal
+a1c1p2_hospital_2 full
 a1c2p3_office
 a1c3p2_urban
 a1c3p4_metro_2
