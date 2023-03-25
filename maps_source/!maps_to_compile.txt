@@ -1,0 +1,19 @@
+a0c0p1_blackmesa full
+a1c1p1_hospital_1 minimal
+a1c1p2_hospital_2 full
+a1c2p3_office
+a1c3p2_urban
+a1c3p4_metro_2
+a1c3p6_station
+a1c4p3_outlands_1
+a3c2p4_boris
+a3c3p1_blackmesaeast
+a3c3p2_ravenholm
+a3c3p3_tunnel
+a3c3p4_streetfight
+a3c4p1_cave
+a3c5p1_badcountry
+a3c6p1_novapro
+a3c6p3_novapro
+a3c7p1_prison_1
+a3c8p1_forest

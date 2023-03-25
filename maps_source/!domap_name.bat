@@ -3,7 +3,7 @@ color 0a
 title %1
 
 REM Count how many cores computer has, then subtract one so it doesn't lock the system up
-SET /a CORE=%NUMBER_OF_PROCESSORS%-2
+SET /a CORE=%NUMBER_OF_PROCESSORS%-1
 
 REM Finding where the build programs are.
 REM SET CurrentDirectory=%~dp0
@@ -61,7 +61,8 @@ ECHO.
 ECHO.
 ECHO.
 title %MAPNAME% - VBSP
-"%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap %MAPNAME%.vmf
+REM "%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap %MAPNAME%.vmf
+"%GAME_DIR%\bin\vbsp.exe" %MAPNAME%.vmf
 color 05
 ECHO.
 ECHO.
@@ -86,7 +87,7 @@ ECHO.
 ECHO.
 ECHO.
 title %MAPNAME% - VVIS
-"%GAME_DIR%\bin\vvis.exe" -low -threads 5 %2 %MAPNAME%.bsp
+"%GAME_DIR%\bin\vvis.exe" -low -threads %CORE% %2 %MAPNAME%.bsp
 color 04
 ECHO.
 ECHO.
@@ -111,10 +112,13 @@ ECHO.
 ECHO.
 ECHO.
 title %MAPNAME% - VRAD
-"%GAME_DIR%\bin\vrad.exe" -threads 5 -both -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
+"%GAME_DIR%\bin\vrad.exe" -threads %CORE% -ldr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
+"%GAME_DIR%\bin\vrad.exe" -threads %CORE% -hdr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final %MAPNAME%.bsp
 color 02
 del /f *.prt
 del /f *.vmx
 del /f *.ini
+COPY /Y "%MAPNAME%.bsp"		"H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\HDtF\maps"
+pause
 GOTO START
 exit

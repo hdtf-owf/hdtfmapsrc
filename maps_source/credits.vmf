@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8860"
-	"mapversion" "30"
+	"editorbuild" "8862"
+	"mapversion" "31"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "0"
-	"mapversion" "30"
+	"mapversion" "31"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.23 from credits"
 	"detailmaterial" "detail/detailsprites"
@@ -857,7 +857,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
-	"message" "music/pain_of_the_secret.mp3"
+	"message" "HDTF.Music.Pain_of_the_secret"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -994,7 +994,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
-	"message" "music/pain_of_the_secret.mp3"
+	"message" "HDTF.Music.Pain_of_the_secret"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -1025,7 +1025,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
-	"message" "music/pain_of_the_secret.mp3"
+	"message" "HDTF.Music.Pain_of_the_secret"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"

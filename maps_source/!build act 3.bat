@@ -8,13 +8,13 @@ ECHO %TIME% jump started.
 start /wait !domap a3c1p2_jump
 REM jump
 ECHO %TIME% c17-1 started.
-start /wait !domap a3c2p1_ci17-1
+start /wait !domap_minimal_vvis a3c2p1_ci17-1
 REM c17-1
 ECHO %TIME% c17-2 started.
-start /wait !domap a3c2p2_ci17-2
+start /wait !domap_minimal_vvis a3c2p2_ci17-2
 REM c17-2
 ECHO %TIME% c17-3 started.
-start /wait !domap a3c2p3_ci17-3
+start /wait !domap_minimal_vvis a3c2p3_ci17-3
 REM c17-3
 ECHO %TIME% boris started.
 start /wait !domap a3c2p4_boris
@@ -49,8 +49,8 @@ REM highway
 ECHO %TIME% nova pro started.
 start /wait !domap a3c6p1_novapro
 REM nova pro
-ECHO %TIME% nova pro started.
-start /wait !domap a3c6p2_novapro
+REM ECHO %TIME% nova pro started.
+REM start /wait !domap a3c6p2_novapro
 REM nova pro
 ECHO %TIME% nova pro started.
 start /wait !domap a3c6p3_novapro

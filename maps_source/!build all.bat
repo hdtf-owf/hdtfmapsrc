@@ -10,7 +10,7 @@ ECHO %TIME% ACT 1 started.
 ECHO.
 ECHO %TIME% Bootcamp started.
 START /wait !domap.bat a0c0p0_bootcamp
-START /wait !domap.bat a0c0p0_bootcamp_m3sa
+REM START /wait !domap.bat a0c0p0_bootcamp_m3sa
 ECHO.
 ECHO %TIME% Blackmesa started.
 START /wait !domap.bat a0c0p1_blackmesa
@@ -56,9 +56,9 @@ START /wait !domap.bat a1c4p3_outlands_1
 ECHO.
 ECHO %TIME% factory/plant started.
 START /wait !domap.bat a1c4p4_factory
-ECHO.
-ECHO %TIME% outlands cont. started.
-START /wait !domap.bat a1c4p5_outlands_2
+REM ECHO.
+REM ECHO %TIME% outlands cont. started.
+REM START /wait !domap.bat a1c4p5_outlands_2
 ECHO.
 ECHO %TIME% pier 1 started.
 ECHO //////////////////////////////////////////////////
@@ -139,15 +139,15 @@ ECHO.
 ECHO %TIME% bad country started.
 START /wait !domap a3c5p1_badcountry
 ECHO.
-ECHO %TIME% highway started.
-START /wait !domap a3c5p2_highway
-ECHO.
+REM ECHO %TIME% highway started.
+REM START /wait !domap a3c5p2_highway
+REM ECHO.
 ECHO %TIME% nova pro started.
 START /wait !domap a3c6p1_novapro
 ECHO.
-ECHO %TIME% nova pro started.
-START /wait !domap a3c6p2_novapro
-ECHO.
+REM ECHO %TIME% nova pro started.
+REM START /wait !domap a3c6p2_novapro
+REM ECHO.
 ECHO %TIME% nova pro started.
 START /wait !domap_fast a3c6p3_novapro
 ECHO.
@@ -163,9 +163,9 @@ ECHO.
 ECHO %TIME% outpost started.
 START /wait !domap a3c8p2_outpost
 ECHO.
-ECHO %TIME% house started.
-START /wait !domap a3c8p2_house
-ECHO.
+REM ECHO %TIME% house started.
+REM START /wait !domap a3c8p2_house
+REM ECHO.
 ECHO %TIME% credits started.
 START /wait !domap credits
 ECHO.
