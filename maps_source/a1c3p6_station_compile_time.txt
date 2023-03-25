@@ -1,17 +1,17 @@
-Compile date is Wed 03/15/2023 
+Compile date is Fri 03/24/2023 
 Compile mode is FULL COMPILE 
  
-VBSP		started		10:13:42.55 
-VBSP		finished	10:13:54.54 
+VBSP		started		 7:20:26.17 
+VBSP		finished	 7:20:35.96 
  
-VVIS		started		10:13:54.57 
-VVIS		finished	10:13:55.05 
+VVIS		started		 7:20:35.99 
+VVIS		finished	 7:20:36.46 
  
-VRAD-LDR	started		10:13:55.08 
-VRAD-LDR	finished	10:29:57.24 
+VRAD-LDR	started		 7:20:36.49 
+VRAD-LDR	finished	 7:39:32.35 
  
-VRAD-HDR	started		10:29:57.24 
-VRAD-HDR	finished	10:45:23.01 
+VRAD-HDR	started		 7:39:32.35 
+VRAD-HDR	finished	 7:57:50.56 
  
  
-Compile completed at 10:45:23.01 on Wed 03/15/2023 
+Compile completed at  7:57:50.56 on Fri 03/24/2023 
