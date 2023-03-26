@@ -43,8 +43,8 @@ REM cut level
 ECHO %TIME% bad country started.
 start /wait !domap a3c5p1_badcountry
 REM bad country
-ECHO %TIME% highway started.
-start /wait !domap a3c5p2_highway
+REM ECHO %TIME% highway started.
+REM start /wait !domap a3c5p2_highway
 REM highway
 ECHO %TIME% nova pro started.
 start /wait !domap a3c6p1_novapro
