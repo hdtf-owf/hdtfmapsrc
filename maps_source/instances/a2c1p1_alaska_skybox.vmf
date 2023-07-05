@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "28"
+	"mapversion" "29"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "28"
+	"mapversion" "29"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11084,8 +11084,8 @@ entity
 	"fogcolor2" "255 255 255"
 	"fogdir" "1 0 0"
 	"fogenable" "1"
-	"fogend" "19000"
-	"fogstart" "-3000"
+	"fogend" "16829"
+	"fogstart" "3000"
 	"scale" "4.0"
 	"origin" "-7932 -224 -153"
 	editor
