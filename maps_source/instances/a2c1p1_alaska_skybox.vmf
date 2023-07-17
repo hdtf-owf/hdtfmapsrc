@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "34"
+	"mapversion" "35"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "34"
+	"mapversion" "35"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1063,8 +1063,8 @@ world
 				"v" "-9180 -4590 -1314"
 			}
 			"material" "NEWALASKA/X4096_Y20480_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 0] 0.7471"
+			"vaxis" "[0 -1 0 0] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
 			"smoothing_groups" "0"
@@ -3040,8 +3040,8 @@ world
 				"v" "-10710 -4590 -1314"
 			}
 			"material" "NEWALASKA/X0_Y20480_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 -1] 0.7471"
+			"vaxis" "[0 -1 0 0] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
 			"smoothing_groups" "0"
