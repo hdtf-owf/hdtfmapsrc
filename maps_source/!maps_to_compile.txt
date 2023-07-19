@@ -1,11 +1,10 @@
-a1c3p3_metro_1a full
+a1c1p1_hospital_1 full
+a1c3p3_metro_1
+a1c3p3_metro_1a
 a1c3p4_metro_2
 a1c3p5_metro_3
 a1c3p6_station
 a1c4p3_outlands_1
-a2c1p1_alaska
 a3c2p1_ci17-1
 a3c4p1_cave
-a3c7p2_prison_2
-a3c8p1_forest
 a3c8p2_outpost
