@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8864"
-	"mapversion" "35"
+	"mapversion" "42"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -72,7 +72,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "35"
+	"mapversion" "42"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -93,8 +93,8 @@ world
 				"v" "-12240 1530 -1314"
 			}
 			"material" "NEWALASKA/X0_Y12288_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 16384] 0.7471"
+			"vaxis" "[0 -1 0 4096] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
 			"smoothing_groups" "0"
@@ -1312,8 +1312,8 @@ world
 				"v" "-12240 0 -1314"
 			}
 			"material" "NEWALASKA/X0_Y12288_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 16384] 0.7471"
+			"vaxis" "[0 -1 0 4096] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
 			"smoothing_groups" "0"
@@ -1561,10 +1561,10 @@ world
 				"v" "-4590 1530 -1314"
 			}
 			"material" "NEWALASKA/X8192_Y12288_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 8192] 0.7471"
+			"vaxis" "[0 -1 0 4096] 0.7471"
 			"rotation" "0"
-			"lightmapscale" "49"
+			"lightmapscale" "98"
 			"smoothing_groups" "0"
 			dispinfo
 			{
@@ -1738,10 +1738,10 @@ world
 				"v" "-4590 0 -1314"
 			}
 			"material" "NEWALASKA/X8192_Y12288_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 8192] 0.7471"
+			"vaxis" "[0 -1 0 4096] 0.7471"
 			"rotation" "0"
-			"lightmapscale" "49"
+			"lightmapscale" "98"
 			"smoothing_groups" "0"
 			dispinfo
 			{
@@ -1915,8 +1915,8 @@ world
 				"v" "-12240 -1530 -1314"
 			}
 			"material" "NEWALASKA/X0_Y16384_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 16384] 0.7471"
+			"vaxis" "[0 -1 0 0] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
 			"smoothing_groups" "0"
@@ -2164,8 +2164,8 @@ world
 				"v" "-12240 -3060 -1314"
 			}
 			"material" "NEWALASKA/X0_Y16384_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 16384] 0.7471"
+			"vaxis" "[0 -1 0 0] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
 			"smoothing_groups" "0"
@@ -2413,8 +2413,8 @@ world
 				"v" "-4590 -1530 -1314"
 			}
 			"material" "NEWALASKA/X8192_Y16384_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 8192] 0.7471"
+			"vaxis" "[0 -1 0 0] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
 			"smoothing_groups" "0"
@@ -2590,8 +2590,8 @@ world
 				"v" "-6120 3060 -1314"
 			}
 			"material" "NEWALASKA/X8192_Y8192_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 8192] 0.7471"
+			"vaxis" "[0 -1 0 8192] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "98"
 			"smoothing_groups" "0"
@@ -2791,8 +2791,8 @@ world
 				"v" "-12240 -4590 -1314"
 			}
 			"material" "NEWALASKA/X0_Y20480_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 0] 0.7471"
+			"vaxis" "[0 -1 0 0] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
 			"smoothing_groups" "0"
@@ -3040,7 +3040,7 @@ world
 				"v" "-10710 -4590 -1314"
 			}
 			"material" "NEWALASKA/X0_Y20480_SIZE4096"
-			"uaxis" "[1 0 0 -1] 0.7471"
+			"uaxis" "[1 0 0 0] 0.7471"
 			"vaxis" "[0 -1 0 0] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
@@ -3774,8 +3774,8 @@ world
 				"v" "-7650 3060 -1314"
 			}
 			"material" "NEWALASKA/X4096_Y8192_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 12280] 0.7471"
+			"vaxis" "[0 -1 0 8192] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
 			"smoothing_groups" "0"
@@ -3951,8 +3951,8 @@ world
 				"v" "-7650 4590 -1314"
 			}
 			"material" "NEWALASKA/X4096_Y8192_SIZE4096"
-			"uaxis" "[1 0 0 0.501953] 0.747075"
-			"vaxis" "[0 -1 0 -0] 0.747075"
+			"uaxis" "[1 0 0 12280] 0.7471"
+			"vaxis" "[0 -1 0 8192] 0.7471"
 			"rotation" "0"
 			"lightmapscale" "49"
 			"smoothing_groups" "0"
