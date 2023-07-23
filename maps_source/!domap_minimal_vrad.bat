@@ -24,7 +24,7 @@ echo. >> %LOG_FILE%
 color 01
 title %1 - VBSP
 echo VBSP		started		%time% >> %LOG_FILE%
-"%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap %1
+"%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap -game "%VPROJECT%" %1
 echo VBSP		finished	%time% >> %LOG_FILE%
 echo. >> %LOG_FILE%
 
@@ -38,13 +38,13 @@ echo. >> %LOG_FILE%
 
 color 04
 title %1 - VRAD
-echo VRAD-LDR	started		%time% >> %LOG_FILE%
-"%GAME_DIR%\bin\vrad.exe" -ldr -threads %CORE% %1
-echo VRAD-LDR	finished	%time% >> %LOG_FILE%
-echo. >> %LOG_FILE%
+rem echo VRAD-LDR	started		%time% >> %LOG_FILE%
+rem "%GAME_DIR%\bin\vrad.exe" -ldr -threads %CORE% -game "%VPROJECT%" %1
+rem echo VRAD-LDR	finished	%time% >> %LOG_FILE%
+rem echo. >> %LOG_FILE%
 
 echo VRAD-HDR	started		%time% >> %LOG_FILE%
-"%GAME_DIR%\bin\vrad.exe" -hdr -threads %CORE% %1
+"%GAME_DIR%\bin\vrad.exe" -hdr -threads %CORE% -game "%VPROJECT%" %1
 echo VRAD-HDR	finished	%time% >> %LOG_FILE%
 echo. >> %LOG_FILE%
 
