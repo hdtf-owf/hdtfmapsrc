@@ -61,7 +61,7 @@ ECHO.
 ECHO.
 ECHO.
 title %MAPNAME% - VBSP
-"%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap %MAPNAME%.vmf
+"%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap -game "%VPROJECT%" %MAPNAME%.vmf
 color 05
 ECHO.
 ECHO.
@@ -111,8 +111,8 @@ ECHO.
 ECHO.
 ECHO.
 title %MAPNAME% - VRAD
-"%GAME_DIR%\bin\vrad.exe" -threads %CORE% -ldr %MAPNAME%.bsp
-"%GAME_DIR%\bin\vrad.exe" -threads %CORE% -hdr %MAPNAME%.bsp
+rem "%GAME_DIR%\bin\vrad.exe" -threads %CORE% -ldr -game "%VPROJECT%" %MAPNAME%.bsp
+"%GAME_DIR%\bin\vrad.exe" -threads %CORE% -hdr -game "%VPROJECT%" %MAPNAME%.bsp
 color 02
 del /f *.prt
 del /f *.vmx
