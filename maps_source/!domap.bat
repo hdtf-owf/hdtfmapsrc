@@ -38,14 +38,18 @@ echo. >> %LOG_FILE%
 
 color 04
 title %1 - VRAD
-rem echo VRAD-LDR	started		%time% >> %LOG_FILE%
-rem "%GAME_DIR%\bin\vrad.exe" -ldr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% -game "%VPROJECT%" %1
-rem echo VRAD-LDR	finished	%time% >> %LOG_FILE%
-rem echo. >> %LOG_FILE%
 
 echo VRAD-HDR	started		%time% >> %LOG_FILE%
 "%GAME_DIR%\bin\vrad.exe" -hdr -ambientocclusion -aosamples 32 -worldtextureshadows -translucentshadows -final -threads %CORE% -game "%VPROJECT%" %1
 echo VRAD-HDR	finished	%time% >> %LOG_FILE%
+echo. >> %LOG_FILE%
+
+color 04
+title %1 - Lux
+
+echo LUX Cubemap Processing started		%time% >> %LOG_FILE%
+"%GAME_DIR%\bin\LuxCubemapProcessor.exe" %1
+echo LUX Cubemap Processing finished	%time% >> %LOG_FILE%
 echo. >> %LOG_FILE%
 
 echo. >> %LOG_FILE%
