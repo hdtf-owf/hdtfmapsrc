@@ -1,4 +1,4 @@
-a0c0p0_bootcamp full
+a0c0p0_bootcamp
 a1c1p1_hospital_1
 a1c2p3_office
 a1c3p1_canal_2
