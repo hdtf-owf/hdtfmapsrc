@@ -1,3 +1,4 @@
+a0c0p0_bootcamp
 a0c0p1_blackmesa
 a1c1p2_hospital_2
 a1c3p1_canal_2
@@ -9,3 +10,5 @@ a1c5p1_pier_1
 a3c2p2_ci17-2
 a3c2p4_boris
 a3c3p2_ravenholm
+a3c8p1_forest
+a3c8p2_outpost
