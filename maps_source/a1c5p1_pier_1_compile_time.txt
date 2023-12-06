@@ -1,18 +1,18 @@
-Compile date is Mon 11/27/2023 
+Compile date is Sun 12/03/2023 
  
-VBSP		started			 2:56:09.31 
-VBSP		finished		 2:56:23.15 
+VBSP		started			23:31:03.18 
+VBSP		finished		23:31:16.80 
  
-VVIS		started			 2:56:23.22 
+VVIS		started			23:31:16.87 
 		VVIS FULL COMPILE 
-VVIS		finished		 3:25:50.42 
+VVIS		finished		 0:00:23.15 
  
-VRAD		started			 3:25:50.49 
+VRAD		started			 0:00:23.22 
 		VRAD FULL COMPILE 
-VRAD		finished		 3:36:42.22 
+VRAD		finished		 0:11:12.18 
  
-LUX Cubemap Processing started		 3:36:42.29 
-LUX Cubemap Processing finished		 3:36:42.31 
+LUX Cubemap Processing started		 0:11:12.25 
+LUX Cubemap Processing finished		 0:11:12.27 
  
  
-Compile completed at  3:36:42.34 on Mon 11/27/2023 
+Compile completed at  0:11:12.29 on Mon 12/04/2023 
