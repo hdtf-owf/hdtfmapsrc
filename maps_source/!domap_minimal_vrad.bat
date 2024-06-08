@@ -3,11 +3,11 @@ color 0a
 
 SET /a CORE=%NUMBER_OF_PROCESSORS%-1
 
-SET GAME_DIR=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman
+SET GAME_DIR=D:\SteamLibrary\steamapps\common\Hunt Down The Freeman
 ECHO %GAME_DIR%
-SET MAP_DIR	=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
+SET MAP_DIR	=D:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
 ECHO %MAP_DIR%
-SET BIN_DIR	=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
+SET BIN_DIR	=D:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
 ECHO %BIN_DIR%
 
 @attrib -r %1
@@ -24,7 +24,7 @@ echo. >> %LOG_FILE%
 color 01
 title %1 - VBSP
 echo VBSP		started		%time% >> %LOG_FILE%
-"%GAME_DIR%\bin\vbsp.exe" -nodefaultcubemap -game "%VPROJECT%" %1
+"%GAME_DIR%\bin\vbsp.exe" -game "%VPROJECT%" %1
 echo VBSP		finished	%time% >> %LOG_FILE%
 echo. >> %LOG_FILE%
 

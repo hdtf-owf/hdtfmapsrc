@@ -33,6 +33,9 @@ ECHO.
 ECHO %TIME% canal started.
 START /wait !domap.bat a1c3p1_canal
 ECHO.
+ECHO %TIME% canal_2 started.
+START /wait !domap.bat a1c3p1_canal_2
+ECHO.
 ECHO %TIME% urban started.
 START /wait !domap.bat a1c3p2_urban
 ECHO.
@@ -149,7 +152,7 @@ REM ECHO %TIME% nova pro started.
 REM START /wait !domap a3c6p2_novapro
 REM ECHO.
 ECHO %TIME% nova pro started.
-START /wait !domap_fast a3c6p3_novapro
+START /wait !domap a3c6p3_novapro
 ECHO.
 ECHO %TIME% prison 1 started.
 START /wait !domap a3c7p1_prison_1
