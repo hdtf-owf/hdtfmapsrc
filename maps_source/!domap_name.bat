@@ -10,8 +10,8 @@ REM SET CurrentDirectory=%~dp0
 REM PUSHD %CD%
 REM CD..
 REM CD..
-SET GAME_DIR=H:\SteamLibrary\steamapps\common\Hunt Down The Freeman
-SET VMF_DIR=C:\Users\gabez\Documents\!hdtf_maps_source
+SET GAME_DIR=G:\SteamLibrary\steamapps\common\Hunt Down The Freeman
+SET VMF_DIR=F:\GitHub\hdtfmapsrc\maps_source
 REM SET GAME_DIR=%CD%
 REM POPD
 

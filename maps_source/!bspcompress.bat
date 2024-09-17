@@ -2,7 +2,7 @@
 color 0a
 title %1
 
-SET GAME_DIR=E:\hdtf_contentbuilder\steamworks_sdk\tools\ContentBuilder\content\generic\
+SET GAME_DIR=G:\hdtf_contentbuilder\steamworks_sdk\tools\ContentBuilder\content\generic\
 SET VPROJECT=%GAME_DIR%\hdtf
 
 "%GAME_DIR%\bin\bspzip.exe" -repack -compress %1

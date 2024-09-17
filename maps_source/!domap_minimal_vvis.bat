@@ -3,11 +3,11 @@ color 0a
 
 SET /a CORE=%NUMBER_OF_PROCESSORS%-1
 
-SET GAME_DIR=D:\SteamLibrary\steamapps\common\Hunt Down The Freeman
+SET GAME_DIR=G:\SteamLibrary\steamapps\common\Hunt Down The Freeman
 ECHO %GAME_DIR%
-SET MAP_DIR	=D:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
+SET MAP_DIR	=G:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
 ECHO %MAP_DIR%
-SET BIN_DIR	=D:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
+SET BIN_DIR	=G:\SteamLibrary\steamapps\common\Hunt Down The Freeman\Bin
 ECHO %BIN_DIR%
 
 @attrib -r %1

@@ -42,6 +42,9 @@ ECHO.
 ECHO %TIME% metro 1 started.
 START /wait !domap.bat a1c3p3_metro_1
 ECHO.
+ECHO %TIME% metro 1a started.
+START /wait !domap.bat a1c3p3_metro_1a
+ECHO.
 ECHO %TIME% metro 2 started.
 START /wait !domap.bat a1c3p4_metro_2
 ECHO.
@@ -173,15 +176,15 @@ ECHO %TIME% credits started.
 START /wait !domap credits
 ECHO.
 ECHO %TIME% ACT 3 Finished.
-ECHO.
-START /wait !domap dev_coop_blackmesaeast
-START /wait !domap dev_cubemaps
-START /wait !domap dev_killhouse
-START /wait !domap dev_shooting_range
-START /wait !domap dev_ending
-START /wait !domap dev_WATERTEST
-START /wait !domap hdtf_orphanage
-ECHO.
-ECHO.
+REM ECHO.
+REM START /wait !domap dev_coop_blackmesaeast
+REM START /wait !domap dev_cubemaps
+REM START /wait !domap dev_killhouse
+REM START /wait !domap dev_shooting_range
+REM START /wait !domap dev_ending
+REM START /wait !domap dev_WATERTEST
+REM START /wait !domap hdtf_orphanage
+REM ECHO.
+REM ECHO.
 ECHO %TIME% Done.
 PAUSE
