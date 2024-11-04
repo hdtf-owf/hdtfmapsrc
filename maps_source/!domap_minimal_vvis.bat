@@ -1,5 +1,6 @@
 @echo off
 color 0a
+title %1
 
 SET /a CORE=%NUMBER_OF_PROCESSORS%-1
 
