@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8862"
-	"mapversion" "600"
+	"mapversion" "605"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -120,7 +120,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "600"
+	"mapversion" "605"
 	"classname" "worldspawn"
 	"armsskin" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -137416,13 +137416,10 @@ entity
 	"targetname" "relay_gameover_1"
 	connections
 	{
-		"OnTrigger" "gave_over_1,Display,,1,-1"
-		"OnTrigger" "gameover_fade_1,Fade,,0,-1"
-		"OnTrigger" "player_loadsaved_fail,Reload,,6,-1"
+		"OnTrigger" "logic_rng_gman_message_stuck,PickRandom,,0,-1"
 		"OnTrigger" "ss_combine_escort_2,Kill,,0,-1"
 		"OnTrigger" "ss_combine_escort,Kill,,0,-1"
 		"OnTrigger" "ss_combine_escort_3,Kill,,0,-1"
-		"OnTrigger" "player_speedmod_fail,ModifySpeed,0,0,-1"
 		"OnTrigger" "relationship_metro_2,ApplyRelationship,,0.01,-1"
 		"OnTrigger" "relationship_metro_1,RevertToDefaultRelationship,,0,-1"
 		"OnTrigger" "relationship_combine_2,ApplyRelationship,,0.01,-1"
@@ -138218,13 +138215,544 @@ entity
 		"logicalpos" "[0 500]"
 	}
 }
+entity
+{
+	"id" "87973"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"Case10" "10"
+	"Case11" "11"
+	"Case12" "12"
+	"Case13" "13"
+	"Case14" "14"
+	"Case15" "15"
+	"Case16" "16"
+	"targetname" "logic_rng_gman_message_paradox"
+	connections
+	{
+		"OnCase03" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase04" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase02" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase05" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase06" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase07" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase08" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase09" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase10" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase01" "relay_gameover_rude,Trigger,,0,-1"
+		"OnCase11" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase12" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase13" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase14" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase15" "relay_gameover_paradox,Trigger,,0,-1"
+		"OnCase16" "relay_gameover_paradox,Trigger,,0,-1"
+	}
+	"origin" "-448 -32 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -13768]"
+	}
+}
+entity
+{
+	"id" "87975"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "relay_gameover_paradox"
+	connections
+	{
+		"OnTrigger" "message_gameover_paradox,ShowMessage,,1,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0.99,0,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0,1,-1"
+		"OnTrigger" "relay_gameover_*,Disable,,0,-1"
+		"OnTrigger" "loadsaved_gameover,Reload,,0,-1"
+	}
+	"origin" "-448 -32 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 500]"
+	}
+}
+entity
+{
+	"id" "87977"
+	"classname" "env_message"
+	"message" "GAMEOVER_PARADOX"
+	"messageattenuation" "0"
+	"messagevolume" "10"
+	"spawnflags" "0"
+	"targetname" "message_gameover_paradox"
+	"origin" "-448 -32 -216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8000 6000]"
+	}
+}
+entity
+{
+	"id" "87979"
+	"classname" "env_message"
+	"message" "GAMEOVER_TIMER"
+	"messageattenuation" "0"
+	"messagevolume" "10"
+	"spawnflags" "0"
+	"targetname" "message_gameover_timer"
+	"origin" "-432 -32 -216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8000 6000]"
+	}
+}
+entity
+{
+	"id" "87981"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "relay_gameover_timer"
+	connections
+	{
+		"OnTrigger" "message_gameover_timer,ShowMessage,,1,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0.99,0,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0,1,-1"
+		"OnTrigger" "relay_gameover_*,Disable,,0,-1"
+		"OnTrigger" "loadsaved_gameover,Reload,,0,-1"
+	}
+	"origin" "-432 -32 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 500]"
+	}
+}
+entity
+{
+	"id" "87983"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"Case10" "10"
+	"Case11" "11"
+	"Case12" "12"
+	"Case13" "13"
+	"Case14" "14"
+	"Case15" "15"
+	"Case16" "16"
+	"targetname" "logic_rng_gman_message_timer"
+	connections
+	{
+		"OnCase03" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase04" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase02" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase05" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase06" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase07" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase08" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase09" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase10" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase01" "relay_gameover_rude,Trigger,,0,-1"
+		"OnCase11" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase12" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase13" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase14" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase15" "relay_gameover_timer,Trigger,,0,-1"
+		"OnCase16" "relay_gameover_timer,Trigger,,0,-1"
+	}
+	"origin" "-432 -32 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -13768]"
+	}
+}
+entity
+{
+	"id" "87985"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"Case10" "10"
+	"Case11" "11"
+	"Case12" "12"
+	"Case13" "13"
+	"Case14" "14"
+	"Case15" "15"
+	"Case16" "16"
+	"targetname" "logic_rng_gman_message_object"
+	connections
+	{
+		"OnCase03" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase04" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase02" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase05" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase06" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase07" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase08" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase09" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase10" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase01" "relay_gameover_rude,Trigger,,0,-1"
+		"OnCase11" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase12" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase13" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase14" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase15" "relay_gameover_object,Trigger,,0,-1"
+		"OnCase16" "relay_gameover_object,Trigger,,0,-1"
+	}
+	"origin" "-416 -32 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -13768]"
+	}
+}
+entity
+{
+	"id" "87987"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "relay_gameover_object"
+	connections
+	{
+		"OnTrigger" "message_gameover_object,ShowMessage,,1,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0.99,0,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0,1,-1"
+		"OnTrigger" "relay_gameover_*,Disable,,0,-1"
+		"OnTrigger" "loadsaved_gameover,Reload,,0,-1"
+	}
+	"origin" "-416 -32 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 500]"
+	}
+}
+entity
+{
+	"id" "87989"
+	"classname" "env_message"
+	"message" "GAMEOVER_OBJECT"
+	"messageattenuation" "0"
+	"messagevolume" "10"
+	"spawnflags" "0"
+	"targetname" "message_gameover_object"
+	"origin" "-416 -32 -216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8000 6000]"
+	}
+}
+entity
+{
+	"id" "87991"
+	"classname" "env_message"
+	"message" "GAMEOVER_ALLY"
+	"messageattenuation" "0"
+	"messagevolume" "10"
+	"spawnflags" "0"
+	"targetname" "message_gameover_ally"
+	"origin" "-400 -32 -216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8000 6000]"
+	}
+}
+entity
+{
+	"id" "87993"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "relay_gameover_ally"
+	connections
+	{
+		"OnTrigger" "message_gameover_ally,ShowMessage,,1,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0.99,0,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0,1,-1"
+		"OnTrigger" "relay_gameover_*,Disable,,0,-1"
+		"OnTrigger" "loadsaved_gameover,Reload,,0,-1"
+	}
+	"origin" "-400 -32 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 500]"
+	}
+}
+entity
+{
+	"id" "87995"
+	"classname" "env_message"
+	"message" "GAMEOVER_RUDE"
+	"messageattenuation" "0"
+	"messagevolume" "10"
+	"spawnflags" "0"
+	"targetname" "message_gameover_rude"
+	"origin" "-368 -32 -216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8000 6000]"
+	}
+}
+entity
+{
+	"id" "87997"
+	"classname" "player_loadsaved"
+	"duration" "1"
+	"holdtime" "7"
+	"loadtime" "7"
+	"renderamt" "255"
+	"rendercolor" "0 0 0"
+	"targetname" "loadsaved_gameover"
+	"origin" "-344 -24 -208"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 1500]"
+	}
+}
+entity
+{
+	"id" "87999"
+	"classname" "player_speedmod"
+	"spawnflags" "1020"
+	"targetname" "player_speedmod_gameover"
+	"origin" "-344 -24 -176"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 -8768]"
+	}
+}
+entity
+{
+	"id" "88001"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "relay_gameover_rude"
+	connections
+	{
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0.99,0,-1"
+		"OnTrigger" "relay_gameover_*,Disable,,0,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0,1,-1"
+		"OnTrigger" "message_gameover_rude,ShowMessage,,1,-1"
+		"OnTrigger" "loadsaved_gameover,Reload,,0,-1"
+	}
+	"origin" "-368 -32 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 500]"
+	}
+}
+entity
+{
+	"id" "88003"
+	"classname" "env_message"
+	"message" "GAMEOVER_STUCK"
+	"messageattenuation" "0"
+	"messagevolume" "10"
+	"spawnflags" "0"
+	"targetname" "message_gameover_stuck"
+	"origin" "-384 -32 -216"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8000 6000]"
+	}
+}
+entity
+{
+	"id" "88005"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "relay_gameover_stuck"
+	connections
+	{
+		"OnTrigger" "message_gameover_stuck,ShowMessage,,1,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0.99,0,-1"
+		"OnTrigger" "player_speedmod_gameover,ModifySpeed,0,1,-1"
+		"OnTrigger" "relay_gameover_*,Disable,,0,-1"
+		"OnTrigger" "loadsaved_gameover,Reload,,0,-1"
+	}
+	"origin" "-384 -32 -200"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 500]"
+	}
+}
+entity
+{
+	"id" "88007"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"Case10" "10"
+	"Case11" "11"
+	"Case12" "12"
+	"Case13" "13"
+	"Case14" "14"
+	"Case15" "15"
+	"Case16" "16"
+	"targetname" "logic_rng_gman_message_stuck"
+	connections
+	{
+		"OnCase03" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase04" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase02" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase05" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase06" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase07" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase08" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase09" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase10" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase01" "relay_gameover_rude,Trigger,,0,-1"
+		"OnCase11" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase12" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase13" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase14" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase15" "relay_gameover_stuck,Trigger,,0,-1"
+		"OnCase16" "relay_gameover_stuck,Trigger,,0,-1"
+	}
+	"origin" "-384 -32 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -13768]"
+	}
+}
+entity
+{
+	"id" "88009"
+	"classname" "logic_case"
+	"Case01" "1"
+	"Case02" "2"
+	"Case03" "3"
+	"Case04" "4"
+	"Case05" "5"
+	"Case06" "6"
+	"Case07" "7"
+	"Case08" "8"
+	"Case09" "9"
+	"Case10" "10"
+	"Case11" "11"
+	"Case12" "12"
+	"Case13" "13"
+	"Case14" "14"
+	"Case15" "15"
+	"Case16" "16"
+	"targetname" "logic_rng_gman_message_ally"
+	connections
+	{
+		"OnCase03" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase04" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase02" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase05" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase06" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase07" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase08" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase09" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase10" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase01" "relay_gameover_rude,Trigger,,0,-1"
+		"OnCase11" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase12" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase13" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase14" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase15" "relay_gameover_ally,Trigger,,0,-1"
+		"OnCase16" "relay_gameover_ally,Trigger,,0,-1"
+	}
+	"origin" "-400 -32 -184"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -13768]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-3138.69 839.064 -65.7758]"
-		"look" "[-3027.64 757.167 -293.617]"
+		"position" "[-382.53 63.6442 -156.445]"
+		"look" "[-363.225 -187.77 -242.287]"
 	}
 }
 cordons
