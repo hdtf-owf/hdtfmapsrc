@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8862"
-	"mapversion" "605"
+	"mapversion" "607"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -120,7 +120,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "605"
+	"mapversion" "607"
 	"classname" "worldspawn"
 	"armsskin" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -128770,7 +128770,7 @@ entity
 	"id" "64956"
 	"classname" "trigger_changelevel"
 	"landmark" "landmark_ci17-3/boris"
-	"map" "a3c2p3_ci17-3"
+	"map" "a3c2p3_ci17_3"
 	"spawnflags" "2"
 	"StartDisabled" "1"
 	solid
@@ -133618,7 +133618,7 @@ entity
 	"id" "73664"
 	"classname" "trigger_changelevel"
 	"landmark" "landmark_ci17-2/boris"
-	"map" "a3c2p2_ci17-2"
+	"map" "a3c2p2_ci17_2"
 	"spawnflags" "2"
 	"StartDisabled" "1"
 	solid
@@ -133752,7 +133752,7 @@ entity
 	"id" "73689"
 	"classname" "trigger_changelevel"
 	"landmark" "landmark_ci17-1/boris"
-	"map" "a3c2p1_ci17-1"
+	"map" "a3c2p1_ci17_1"
 	"spawnflags" "2"
 	"StartDisabled" "1"
 	solid
