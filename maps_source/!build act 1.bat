@@ -26,32 +26,35 @@ start /wait !domap.bat a1c2p2_downtown_2
 ECHO %TIME% office started.
 start /wait !domap.bat a1c2p3_office
 
-ECHO %TIME% canal started.
-start /wait !domap.bat a1c3p1_canal
+ECHO %TIME% canal 1 started.
+start /wait !domap.bat a1c3p1_canals_1
+
+ECHO %TIME% canal 2 started.
+start /wait !domap.bat a1c3p2_canals_2
 
 ECHO %TIME% urban started.
-start /wait !domap.bat a1c3p2_urban
+start /wait !domap.bat a1c3p3_urban
+
+ECHO %TIME% garage started.
+start /wait !domap.bat a1c3p4_garage
 
 ECHO %TIME% metro 1 started.
-start /wait !domap.bat a1c3p3_metro_1
+start /wait !domap.bat a1c4p1_metro_1
 
 ECHO %TIME% metro 2 started.
-start /wait !domap.bat a1c3p4_metro_2
+start /wait !domap.bat a1c4p2_metro_2
 
 ECHO %TIME% metro 3 started.
-start /wait !domap.bat a1c3p5_metro_3
+start /wait !domap.bat a1c4p3_metro_3
 
 ECHO %TIME% station started.
-start /wait !domap.bat a1c3p6_station
+start /wait !domap.bat a1c4p4_station
 
-ECHO %TIME% mesa started.
-start /wait !domap.bat a1c4p2_mesa
-
-ECHO %TIME% outlands 1 started.
-start /wait !domap.bat a1c4p3_outlands_1
+ECHO %TIME% outlands started.
+start /wait !domap.bat a1c5p1_outlands
 
 ECHO %TIME% factory/plant started.
-start /wait !domap.bat a1c4p4_factory
+start /wait !domap.bat a1c5p2_factory
 `
 REM ECHO %TIME% outlands cont. started.
 REM start /wait !domap_fast_vvis.bat a1c4p5_outlands_2
@@ -60,13 +63,13 @@ REM ECHO %TIME% pier_m3sa started.
 REM start /wait !domap.bat a1c5p1_pier_m3sa
 
 ECHO %TIME% pier 1 started.
-start /wait !domap_minimal_vrad.bat a1c5p1_pier_1
+start /wait !domap_minimal_vrad.bat a1c6p1_pier_1
 
 ECHO %TIME% pier 2 started.
-start /wait !domap_minimal_vrad.bat a1c5p2_pier_2
+start /wait !domap_minimal_vrad.bat a1c6p2_pier_2
 
-start /wait !domap.bat a1c5p4_ship
 ECHO %TIME% ship started.
+start /wait !domap.bat a1c6p3_ship
 
 ECHO %TIME% Done.
 pause
