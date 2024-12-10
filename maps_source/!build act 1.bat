@@ -54,13 +54,7 @@ ECHO %TIME% outlands started.
 start /wait !domap.bat a1c5p1_outlands
 
 ECHO %TIME% factory/plant started.
-start /wait !domap.bat a1c5p2_factory
-`
-REM ECHO %TIME% outlands cont. started.
-REM start /wait !domap_fast_vvis.bat a1c4p5_outlands_2
-
-REM ECHO %TIME% pier_m3sa started.
-REM start /wait !domap.bat a1c5p1_pier_m3sa
+start /wait !domap_minimal_vrad.bat a1c5p2_factory
 
 ECHO %TIME% pier 1 started.
 start /wait !domap_minimal_vrad.bat a1c6p1_pier_1

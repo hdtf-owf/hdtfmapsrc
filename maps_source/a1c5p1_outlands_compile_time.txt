@@ -1,17 +1,17 @@
-Compile date is Mon 11/04/2024 
+Compile date is Mon 12/09/2024 
 Compile mode is FULL COMPILE 
  
-VBSP		started		 0:24:54.36 
-VBSP		finished	 0:25:10.90 
+VBSP		started		12:33:56.29 
+VBSP		finished	12:34:10.90 
  
-VVIS		started		 0:25:10.94 
-VVIS		finished	 0:37:12.19 
+VVIS		started		12:34:10.94 
+VVIS		finished	12:45:08.17 
  
-VRAD-HDR	started		 0:37:12.22 
-VRAD-HDR	finished	 0:48:33.91 
+VRAD-HDR	started		12:45:08.20 
+VRAD-HDR	finished	12:53:17.81 
  
-LUX Cubemap Processing started		 0:48:33.94 
-LUX Cubemap Processing finished	 0:48:33.95 
+LUX Cubemap Processing started		12:53:17.84 
+LUX Cubemap Processing finished	12:53:17.85 
  
  
-Compile completed at  0:48:33.96 on Mon 11/04/2024 
+Compile completed at 12:53:17.86 on Mon 12/09/2024 

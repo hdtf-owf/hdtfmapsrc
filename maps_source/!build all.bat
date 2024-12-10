@@ -18,7 +18,7 @@ START /wait !domap.bat a1c4p2_metro_2
 START /wait !domap.bat a1c4p3_metro_3
 START /wait !domap.bat a1c4p4_station
 START /wait !domap.bat a1c5p1_outlands
-START /wait !domap.bat a1c5p2_factory
+START /wait !domap_minimal_vrad.bat a1c5p2_factory
 START /wait !domap_minimal_vrad.bat a1c6p1_pier_1
 START /wait !domap_minimal_vrad.bat a1c6p2_pier_2
 START /wait !domap.bat a1c6p3_ship
