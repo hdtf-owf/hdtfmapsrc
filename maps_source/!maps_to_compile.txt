@@ -1,2 +1,7 @@
-a1c3p1_canal_2
-a3c6p3_novapro
+a1c2p3_office
+a1c3p4_garage
+a1c4p2_metro_2
+a1c4p4_station
+a3c4p1_cave
+a3c4p2_badcountry
+a3c7p2_outpost
