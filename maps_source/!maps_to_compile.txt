@@ -1,4 +1,3 @@
-a1c2p3_office
 a1c3p4_garage
 a1c4p2_metro_2
 a1c4p4_station
