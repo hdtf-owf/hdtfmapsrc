@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8869"
-	"mapversion" "402"
+	"editorbuild" "8862"
+	"mapversion" "405"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -82,24 +82,7 @@ light_plus
 	"soften_cosine" "0"
 	"debug" "0"
 	"cubemap" "1"
-}
-postprocess_plus
-{
-	"enable" "1"
-	"copied_from_controller" "1"
-	"bloom_scale" "1"
-	"bloom_exponent" "2.5"
-	"bloom_saturation" "1"
-	"auto_exposure_min" "0.5"
-	"auto_exposure_max" "2"
-	"tonemap_percent_target" "60"
-	"tonemap_percent_bright_pixels" "2"
-	"tonemap_min_avg_luminance" "3"
-	"tonemap_rate" "1"
-	"vignette_enable" "0"
-	"vignette_start" "1"
-	"vignette_end" "2"
-	"vignette_blur" "0"
+	"hdr" "0"
 }
 bgimages_plus
 {
@@ -107,13 +90,13 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "402"
+	"mapversion" "405"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_05"
-	"startdark" "1"
+	"startdark" "0"
 	hidden
 	{
 		solid
@@ -29708,9 +29691,9 @@ entity
 				"v" "-288.232 232.149 5.56421"
 				"v" "-288.232 232.149 1.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -158.596] 0.25"
+			"vaxis" "[0 0 -1 46.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29726,9 +29709,9 @@ entity
 				"v" "-288.232 231.149 5.56421"
 				"v" "-288.232 231.149 1.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 204.928] 0.25"
+			"vaxis" "[0 0 -1 46.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29744,9 +29727,9 @@ entity
 				"v" "-326.232 232.149 1.56421"
 				"v" "-288.232 232.149 1.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-1 -0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -204.928] 0.25"
+			"vaxis" "[0 0 -1 46.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29762,9 +29745,9 @@ entity
 				"v" "-326.232 231.149 1.56421"
 				"v" "-288.232 231.149 1.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-0 1 0 0] 0.25"
-			"vaxis" "[-1 -0 0 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -158.596] 0.25"
+			"vaxis" "[-1 0 0 -44.928] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29780,9 +29763,9 @@ entity
 				"v" "-326.232 232.149 5.56421"
 				"v" "-288.232 232.149 5.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 -0 0 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 158.596] 0.25"
+			"vaxis" "[-1 0 0 -44.928] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -29798,9 +29781,9 @@ entity
 				"v" "-326.232 231.149 5.56421"
 				"v" "-326.232 231.149 1.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 158.596] 0.25"
+			"vaxis" "[0 0 -1 46.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32266,9 +32249,9 @@ entity
 				"v" "-180 630 3.56421"
 				"v" "-180 631 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -218] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32284,9 +32267,9 @@ entity
 				"v" "-206 630 3.56421"
 				"v" "-180 630 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 4] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32302,9 +32285,9 @@ entity
 				"v" "-206 631 3.56421"
 				"v" "-206 631 -0.435795"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-1 -0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -4] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32320,9 +32303,9 @@ entity
 				"v" "-206 631 -0.435795"
 				"v" "-206 630 -0.435795"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-0 1 0 0] 0.25"
-			"vaxis" "[-1 -0 0 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -218] 0.25"
+			"vaxis" "[-1 0 0 -36] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32338,9 +32321,9 @@ entity
 				"v" "-206 630 3.56421"
 				"v" "-206 631 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 -0 0 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 218] 0.25"
+			"vaxis" "[-1 0 0 -36] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -32356,9 +32339,9 @@ entity
 				"v" "-206 631 3.56421"
 				"v" "-206 630 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 218] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -33547,6 +33530,101 @@ entity
 }
 entity
 {
+	"id" "97131"
+	"classname" "item_ammo_12GA_box"
+	"angles" "0 180 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"skin" "6"
+	"origin" "147 -337 30"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "97127"
+	"classname" "item_ammo_9mm_box"
+	"angles" "0 180 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"skin" "6"
+	"origin" "182 -337 30"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "97123"
+	"classname" "item_ammo_792mm_box"
+	"angles" "0 180 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"skin" "6"
+	"origin" "153 -337 30"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "97119"
+	"classname" "item_ammo_762mm_box"
+	"angles" "0 180 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"skin" "6"
+	"origin" "159 -337 30"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "97114"
+	"classname" "item_ammo_556mm_box"
+	"angles" "0 180 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"skin" "6"
+	"origin" "164 -337 30"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "69614"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -34437,9 +34515,9 @@ entity
 				"v" "-60 1430 3.56421"
 				"v" "-60 1431 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -90] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -34455,9 +34533,9 @@ entity
 				"v" "-86 1430 3.56421"
 				"v" "-60 1430 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 36] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -34473,9 +34551,9 @@ entity
 				"v" "-86 1431 3.56421"
 				"v" "-86 1431 -0.435795"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-1 -0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -36] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -34491,9 +34569,9 @@ entity
 				"v" "-86 1431 -0.435795"
 				"v" "-86 1430 -0.435795"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-0 1 0 0] 0.25"
-			"vaxis" "[-1 -0 0 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -90] 0.25"
+			"vaxis" "[-1 0 0 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -34509,9 +34587,9 @@ entity
 				"v" "-86 1430 3.56421"
 				"v" "-86 1431 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 -0 0 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 90] 0.25"
+			"vaxis" "[-1 0 0 -4] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -34527,9 +34605,9 @@ entity
 				"v" "-86 1431 3.56421"
 				"v" "-86 1430 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 90] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -35718,6 +35796,115 @@ entity
 }
 entity
 {
+	"id" "97104"
+	"classname" "item_ammo_45cal_box"
+	"angles" "0 180 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"skin" "6"
+	"origin" "176 -337 30"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "97098"
+	"classname" "item_ammo_44cal_box"
+	"angles" "0 180 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"skin" "6"
+	"origin" "170 -337 30"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "95001"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightingorigin" "info_lighting_cabright"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props/cs_italy/it_mkt_table1.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "137 -359 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "558"
+	"classname" "weapon_m67"
+	"angles" "0 345 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "1"
+	"targetname" "wpn_frag"
+	connections
+	{
+		"OnPlayerPickup" "template_frag,ForceSpawn,,0.5,-1"
+	}
+	"origin" "-3 -368 65"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "82989"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "-256 3312 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
 	"id" "71590"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -36608,9 +36795,9 @@ entity
 				"v" "60 2246 3.56421"
 				"v" "60 2247 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -26] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -36626,9 +36813,9 @@ entity
 				"v" "34 2246 3.56421"
 				"v" "60 2246 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 68] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -36644,9 +36831,9 @@ entity
 				"v" "34 2247 3.56421"
 				"v" "34 2247 -0.435795"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-1 -0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 188] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -36662,9 +36849,9 @@ entity
 				"v" "34 2247 -0.435795"
 				"v" "34 2246 -0.435795"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[-0 1 0 0] 0.25"
-			"vaxis" "[-1 -0 0 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -26] 0.25"
+			"vaxis" "[-1 0 0 28] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -36680,9 +36867,9 @@ entity
 				"v" "34 2246 3.56421"
 				"v" "34 2247 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 -0 0 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 26] 0.25"
+			"vaxis" "[-1 0 0 28] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -36698,9 +36885,9 @@ entity
 				"v" "34 2247 3.56421"
 				"v" "34 2246 3.56421"
 			}
-			"material" "TOOLS/INVISMETAL"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 26] 0.25"
+			"vaxis" "[0 0 -1 38.2568] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -37885,6 +38072,1559 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 -5268]"
+	}
+}
+entity
+{
+	"id" "83800"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_rifle_bottom.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "12 -371 11.8772"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "83819"
+	"classname" "prop_dynamic"
+	"angles" "0 90 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_rifle_top.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"origin" "12 -371 41.8772"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "83871"
+	"classname" "prop_dynamic"
+	"angles" "0 90 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_rifle_top.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"origin" "20 -371 42.8772"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "83875"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_rifle_bottom.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "20 -371 11.8772"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "83929"
+	"classname" "prop_dynamic"
+	"angles" "0 90 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_rifle_top.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"origin" "16 -371 42.8772"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "560"
+	"classname" "weapon_grenade"
+	"angles" "0 210 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "1"
+	"targetname" "wpn_grenade"
+	connections
+	{
+		"OnPlayerPickup" "template_grenade,ForceSpawn,,0.5,-1"
+	}
+	"origin" "-8 -368 67"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "562"
+	"classname" "weapon_molotov"
+	"angles" "-61.354 60 90"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "1"
+	"targetname" "wpn_molotov"
+	connections
+	{
+		"OnPlayerPickup" "template_molotov,ForceSpawn,,0.5,-1"
+	}
+	"origin" "7 -368 70.2142"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "763"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "template_db"
+	"Template01" "wpn_db"
+	"origin" "-56 -376 120"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "64605"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "74"
+	"spawnflags" "0"
+	"origin" "0 2560 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "198"
+	"classname" "weapon_awp"
+	"angles" "-90 90 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "1"
+	"targetname" "wpn_awp"
+	connections
+	{
+		"OnPlayerPickup" "template_awp,ForceSpawn,,0.5,-1"
+	}
+	"origin" "16.0008 -376.278 24"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "83933"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_rifle_bottom.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "16 -371 11.8772"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "83957"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_rifle_top.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "57 -371 42.8772"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "83961"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_rifle_bottom.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "57 -371 11.8772"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "83971"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_rifle_top.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "49 -371 37.8772"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "62552"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "10"
+	"spawnflags" "0"
+	"origin" "216 -336 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "62554"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "11"
+	"spawnflags" "0"
+	"origin" "216 -272 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "62556"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "12"
+	"spawnflags" "0"
+	"origin" "216 -208 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "61812"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "0 768 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "61809"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "256 768 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "61806"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "256 512 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "82997"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "121"
+	"spawnflags" "0"
+	"origin" "256 3568 88"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "82999"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "0 3568 136"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "117"
+	"classname" "weapon_m16"
+	"angles" "-90 90 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "1"
+	"targetname" "wpn_m16"
+	connections
+	{
+		"OnPlayerPickup" "template_m16,ForceSpawn,,0.5,-1"
+	}
+	"origin" "57 -375 19"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "98"
+	"classname" "weapon_mp5"
+	"angles" "-87.7731 0 90.0001"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "1"
+	"targetname" "wpn_mp5"
+	connections
+	{
+		"OnPlayerPickup" "template_mp5,ForceSpawn,,0.5,-1"
+	}
+	"origin" "5.33 -374 28"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "45"
+	"classname" "weapon_ak47"
+	"angles" "-90 90 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "1"
+	"targetname" "wpn_ak"
+	connections
+	{
+		"OnPlayerPickup" "template_ak,ForceSpawn,,0.5,-1"
+	}
+	"origin" "49 -376.515 23"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "84488"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_pistol.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "4 -371 55"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "84527"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_pistol.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "4 -371 47"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "84539"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_pistol.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-10.4641 -371 55"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "84609"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_military/guncabinet02_pistol.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-10.0361 -370.844 37.8737"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "84628"
+	"classname" "weapon_flaregun"
+	"angles" "20 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"spawnflags" "1"
+	"targetname" "wpn_flareg"
+	connections
+	{
+		"OnPlayerPickup" "template_flaregun,ForceSpawn,,0.5,-1"
+	}
+	"origin" "-8.496 -380.844 36.876"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "61803"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "0 512 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "774"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "template_rem"
+	"Template01" "wpn_rem"
+	"origin" "56 -376 120"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "778"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "template_k98"
+	"Template01" "wpn_k98"
+	"origin" "56 -376 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "782"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "template_m16"
+	"Template01" "wpn_m16"
+	"origin" "24 -376 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "786"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "template_ak"
+	"Template01" "wpn_ak"
+	"origin" "8 -376 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "93450"
+	"classname" "item_ammo_crate"
+	"AmmoType" "4"
+	"angles" "0 180 0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "-99 -347 35"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "61800"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "-256 512 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "61797"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "-256 256 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "62594"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "13"
+	"spawnflags" "0"
+	"origin" "272 -336 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "62596"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "14"
+	"spawnflags" "0"
+	"origin" "272 -272 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "69647"
+	"classname" "point_message"
+	"developeronly" "0"
+	"message" "100ft"
+	"radius" "128"
+	"spawnflags" "0"
+	"origin" "-72 -176 24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "62598"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "15"
+	"spawnflags" "0"
+	"origin" "272 -208 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "62636"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "16"
+	"spawnflags" "0"
+	"origin" "328 -336 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "61794"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "0 256 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "61791"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "256 -256 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "61785"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "256 256 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "61782"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "256 0 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "61773"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "0 0 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "61770"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "-256 0 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "62638"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "17"
+	"spawnflags" "0"
+	"origin" "328 -272 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "62640"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "18"
+	"spawnflags" "0"
+	"origin" "328 -208 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64545"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "59"
+	"spawnflags" "0"
+	"origin" "0 1280 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "62680"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "20"
+	"spawnflags" "0"
+	"origin" "-96 -272 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "69600"
+	"classname" "point_message"
+	"developeronly" "0"
+	"message" "50ft"
+	"radius" "128"
+	"spawnflags" "0"
+	"origin" "-192 -176 24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64547"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "60"
+	"spawnflags" "0"
+	"origin" "256 1280 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "92736"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"generatelightmaps" "0"
+	"ignorenormals" "0"
+	"lightingorigin" "info_lighting_cabright"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props/cs_militia/table_shed.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-95 -359 -2.38419e-07"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 15000]"
+	}
+}
+entity
+{
+	"id" "64555"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "61"
+	"spawnflags" "0"
+	"origin" "-256 1536 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "63048"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "24"
+	"spawnflags" "0"
+	"origin" "-128 -208 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64557"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "62"
+	"spawnflags" "0"
+	"origin" "0 1536 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "63070"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "26"
+	"spawnflags" "0"
+	"origin" "-160 -272 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "67836"
+	"classname" "point_message"
+	"developeronly" "0"
+	"message" "25ft"
+	"radius" "128"
+	"spawnflags" "0"
+	"origin" "-304 -176 24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "71623"
+	"classname" "point_message"
+	"developeronly" "0"
+	"message" "150ft"
+	"radius" "128"
+	"spawnflags" "0"
+	"origin" "48 -176 24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64559"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "63"
+	"spawnflags" "0"
+	"origin" "256 1536 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "61857"
+	"classname" "env_cubemap"
+	"cubemapsize" "8"
+	"sides" ""
+	"origin" "0 2048 72"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "64567"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "64"
+	"spawnflags" "0"
+	"origin" "-256 1792 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "63096"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "30"
+	"spawnflags" "0"
+	"origin" "-192 -208 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64571"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "66"
+	"spawnflags" "0"
+	"origin" "256 1792 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "63118"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "32"
+	"spawnflags" "0"
+	"origin" "-224 -272 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64569"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "65"
+	"spawnflags" "0"
+	"origin" "0 1792 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64543"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "58"
+	"spawnflags" "0"
+	"origin" "-256 1280 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64535"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "57"
+	"spawnflags" "0"
+	"origin" "256 1024 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64533"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "56"
+	"spawnflags" "0"
+	"origin" "0 1024 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64531"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "55"
+	"spawnflags" "0"
+	"origin" "-256 1024 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64523"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "54"
+	"spawnflags" "0"
+	"origin" "256 768 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64521"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "53"
+	"spawnflags" "0"
+	"origin" "0 768 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64519"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "52"
+	"spawnflags" "0"
+	"origin" "-256 768 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64511"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "51"
+	"spawnflags" "0"
+	"origin" "256 512 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64509"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "50"
+	"spawnflags" "0"
+	"origin" "0 512 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "64507"
+	"classname" "info_node"
+	"angles" "0 0 0"
+	"nodeid" "49"
+	"spawnflags" "0"
+	"origin" "-256 512 24"
+	editor
+	{
+		"color" "232 219 8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
 	}
 }
 entity
@@ -50563,1763 +52303,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64507"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "49"
-	"spawnflags" "0"
-	"origin" "-256 512 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64509"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "50"
-	"spawnflags" "0"
-	"origin" "0 512 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64511"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "51"
-	"spawnflags" "0"
-	"origin" "256 512 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64519"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "52"
-	"spawnflags" "0"
-	"origin" "-256 768 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64521"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "53"
-	"spawnflags" "0"
-	"origin" "0 768 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64523"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "54"
-	"spawnflags" "0"
-	"origin" "256 768 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64531"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "55"
-	"spawnflags" "0"
-	"origin" "-256 1024 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64533"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "56"
-	"spawnflags" "0"
-	"origin" "0 1024 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64535"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "57"
-	"spawnflags" "0"
-	"origin" "256 1024 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64543"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "58"
-	"spawnflags" "0"
-	"origin" "-256 1280 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64569"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "65"
-	"spawnflags" "0"
-	"origin" "0 1792 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "63118"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "32"
-	"spawnflags" "0"
-	"origin" "-224 -272 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64571"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "66"
-	"spawnflags" "0"
-	"origin" "256 1792 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "63096"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "30"
-	"spawnflags" "0"
-	"origin" "-192 -208 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64567"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "64"
-	"spawnflags" "0"
-	"origin" "-256 1792 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "61857"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "0 2048 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "64559"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "63"
-	"spawnflags" "0"
-	"origin" "256 1536 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "71623"
-	"classname" "point_message"
-	"developeronly" "0"
-	"message" "150ft"
-	"radius" "128"
-	"spawnflags" "0"
-	"origin" "48 -176 24"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "67836"
-	"classname" "point_message"
-	"developeronly" "0"
-	"message" "25ft"
-	"radius" "128"
-	"spawnflags" "0"
-	"origin" "-304 -176 24"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "63070"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "26"
-	"spawnflags" "0"
-	"origin" "-160 -272 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64557"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "62"
-	"spawnflags" "0"
-	"origin" "0 1536 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "63048"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "24"
-	"spawnflags" "0"
-	"origin" "-128 -208 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64555"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "61"
-	"spawnflags" "0"
-	"origin" "-256 1536 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "92736"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightingorigin" "info_lighting_cabright"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props/cs_militia/table_shed.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-95 -359 -2.38419e-07"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "64547"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "60"
-	"spawnflags" "0"
-	"origin" "256 1280 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "69600"
-	"classname" "point_message"
-	"developeronly" "0"
-	"message" "50ft"
-	"radius" "128"
-	"spawnflags" "0"
-	"origin" "-192 -176 24"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "62680"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "20"
-	"spawnflags" "0"
-	"origin" "-96 -272 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "64545"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "59"
-	"spawnflags" "0"
-	"origin" "0 1280 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "62640"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "18"
-	"spawnflags" "0"
-	"origin" "328 -208 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "62638"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "17"
-	"spawnflags" "0"
-	"origin" "328 -272 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "61770"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "-256 0 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "61773"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "0 0 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "61782"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "256 0 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "61785"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "256 256 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "61791"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "256 -256 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "61794"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "0 256 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "62636"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "16"
-	"spawnflags" "0"
-	"origin" "328 -336 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "62598"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "15"
-	"spawnflags" "0"
-	"origin" "272 -208 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "69647"
-	"classname" "point_message"
-	"developeronly" "0"
-	"message" "100ft"
-	"radius" "128"
-	"spawnflags" "0"
-	"origin" "-72 -176 24"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "62596"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "14"
-	"spawnflags" "0"
-	"origin" "272 -272 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "62594"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "13"
-	"spawnflags" "0"
-	"origin" "272 -336 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "61797"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "-256 256 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "61800"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "-256 512 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "93450"
-	"classname" "item_ammo_crate"
-	"AmmoType" "4"
-	"angles" "0 180 0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "-99 -347 35"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "786"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "template_ak"
-	"Template01" "wpn_ak"
-	"origin" "8 -376 104"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6500]"
-	}
-}
-entity
-{
-	"id" "782"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "template_m16"
-	"Template01" "wpn_m16"
-	"origin" "24 -376 104"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6500]"
-	}
-}
-entity
-{
-	"id" "778"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "template_k98"
-	"Template01" "wpn_k98"
-	"origin" "56 -376 104"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6500]"
-	}
-}
-entity
-{
-	"id" "774"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "template_rem"
-	"Template01" "wpn_rem"
-	"origin" "56 -376 120"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6500]"
-	}
-}
-entity
-{
-	"id" "61803"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "0 512 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "84628"
-	"classname" "weapon_flaregun"
-	"angles" "20 180 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "1"
-	"targetname" "wpn_flareg"
-	connections
-	{
-		"OnPlayerPickup" "template_flaregun,ForceSpawn,,0.5,-1"
-	}
-	"origin" "-8.496 -380.844 36.876"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
-	}
-}
-entity
-{
-	"id" "84609"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_pistol.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-10.0361 -370.844 37.8737"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "84539"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_pistol.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-10.4641 -371 55"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "84527"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_pistol.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "4 -371 47"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "84488"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_pistol.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "4 -371 55"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "45"
-	"classname" "weapon_ak47"
-	"angles" "-90 90 0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "1"
-	"targetname" "wpn_ak"
-	connections
-	{
-		"OnPlayerPickup" "template_ak,ForceSpawn,,0.5,-1"
-	}
-	"origin" "49 -376.515 23"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
-	}
-}
-entity
-{
-	"id" "98"
-	"classname" "weapon_mp5"
-	"angles" "-87.7731 0 90.0001"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "1"
-	"targetname" "wpn_mp5"
-	connections
-	{
-		"OnPlayerPickup" "template_mp5,ForceSpawn,,0.5,-1"
-	}
-	"origin" "5.33 -374 28"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
-	}
-}
-entity
-{
-	"id" "117"
-	"classname" "weapon_m16"
-	"angles" "-90 90 0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "1"
-	"targetname" "wpn_m16"
-	connections
-	{
-		"OnPlayerPickup" "template_m16,ForceSpawn,,0.5,-1"
-	}
-	"origin" "57 -375 19"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
-	}
-}
-entity
-{
-	"id" "82999"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "0 3568 136"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "82997"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "121"
-	"spawnflags" "0"
-	"origin" "256 3568 88"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "61806"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "256 512 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "61809"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "256 768 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "61812"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "0 768 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "62556"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "12"
-	"spawnflags" "0"
-	"origin" "216 -208 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "62554"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "11"
-	"spawnflags" "0"
-	"origin" "216 -272 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "62552"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "10"
-	"spawnflags" "0"
-	"origin" "216 -336 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "83971"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_rifle_top.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "49 -371 37.8772"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "83961"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_rifle_bottom.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "57 -371 11.8772"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "83957"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_rifle_top.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "57 -371 42.8772"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "83933"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_rifle_bottom.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "16 -371 11.8772"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "198"
-	"classname" "weapon_awp"
-	"angles" "-90 90 0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "1"
-	"targetname" "wpn_awp"
-	connections
-	{
-		"OnPlayerPickup" "template_awp,ForceSpawn,,0.5,-1"
-	}
-	"origin" "16.0008 -376.278 24"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
-	}
-}
-entity
-{
-	"id" "64605"
-	"classname" "info_node"
-	"angles" "0 0 0"
-	"nodeid" "74"
-	"spawnflags" "0"
-	"origin" "0 2560 24"
-	editor
-	{
-		"color" "232 219 8"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 5000]"
-	}
-}
-entity
-{
-	"id" "763"
-	"classname" "point_template"
-	"spawnflags" "2"
-	"targetname" "template_db"
-	"Template01" "wpn_db"
-	"origin" "-56 -376 120"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6500]"
-	}
-}
-entity
-{
-	"id" "562"
-	"classname" "weapon_molotov"
-	"angles" "-61.354 60 90"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "1"
-	"targetname" "wpn_molotov"
-	connections
-	{
-		"OnPlayerPickup" "template_molotov,ForceSpawn,,0.5,-1"
-	}
-	"origin" "7 -368 70.2142"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
-	}
-}
-entity
-{
-	"id" "560"
-	"classname" "weapon_grenade"
-	"angles" "0 210 0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "1"
-	"targetname" "wpn_grenade"
-	connections
-	{
-		"OnPlayerPickup" "template_grenade,ForceSpawn,,0.5,-1"
-	}
-	"origin" "-8 -368 67"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
-	}
-}
-entity
-{
-	"id" "83929"
-	"classname" "prop_dynamic"
-	"angles" "0 90 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_rifle_top.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "0"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"origin" "16 -371 42.8772"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "83875"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_rifle_bottom.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "20 -371 11.8772"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "83871"
-	"classname" "prop_dynamic"
-	"angles" "0 90 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_rifle_top.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "0"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"origin" "20 -371 42.8772"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "83819"
-	"classname" "prop_dynamic"
-	"angles" "0 90 0"
-	"DisableBoneFollowers" "0"
-	"disablereceiveshadows" "0"
-	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"MaxAnimTime" "10"
-	"maxdxlevel" "0"
-	"MinAnimTime" "5"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_rifle_top.mdl"
-	"modelscale" "1.0"
-	"PerformanceMode" "0"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"SetBodyGroup" "0"
-	"skin" "0"
-	"solid" "0"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"origin" "12 -371 41.8772"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "83800"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props_military/guncabinet02_rifle_bottom.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "12 -371 11.8772"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "82989"
-	"classname" "env_cubemap"
-	"cubemapsize" "8"
-	"sides" ""
-	"origin" "-256 3312 72"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "558"
-	"classname" "weapon_m67"
-	"angles" "0 345 0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"spawnflags" "1"
-	"targetname" "wpn_frag"
-	connections
-	{
-		"OnPlayerPickup" "template_frag,ForceSpawn,,0.5,-1"
-	}
-	"origin" "-3 -368 65"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 6000]"
-	}
-}
-entity
-{
-	"id" "95001"
-	"classname" "prop_static"
-	"angles" "0 90 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"generatelightmaps" "0"
-	"ignorenormals" "0"
-	"lightingorigin" "info_lighting_cabright"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
-	"model" "models/props/cs_italy/it_mkt_table1.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"screenspacefade" "0"
-	"skin" "0"
-	"solid" "0"
-	"origin" "137 -359 0"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[13500 15000]"
-	}
-}
-entity
-{
-	"id" "97098"
-	"classname" "item_ammo_44cal_box"
-	"angles" "0 180 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"skin" "6"
-	"origin" "170 -337 30"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "97104"
-	"classname" "item_ammo_45cal_box"
-	"angles" "0 180 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"skin" "6"
-	"origin" "176 -337 30"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "97114"
-	"classname" "item_ammo_556mm_box"
-	"angles" "0 180 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"skin" "6"
-	"origin" "164 -337 30"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "97119"
-	"classname" "item_ammo_762mm_box"
-	"angles" "0 180 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"skin" "6"
-	"origin" "159 -337 30"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "97123"
-	"classname" "item_ammo_792mm_box"
-	"angles" "0 180 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"skin" "6"
-	"origin" "153 -337 30"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "97127"
-	"classname" "item_ammo_9mm_box"
-	"angles" "0 180 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"skin" "6"
-	"origin" "182 -337 30"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "97131"
-	"classname" "item_ammo_12GA_box"
-	"angles" "0 180 0"
-	"disableshadows" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"skin" "6"
-	"origin" "147 -337 30"
-	editor
-	{
-		"color" "0 0 200"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 cameras
